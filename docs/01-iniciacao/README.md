@@ -47,7 +47,7 @@ Além disso, a falta de um sistema automatizado dificulta a monitorização em t
 ## Objetivos
 
 > **Objetivo Geral:**  
-Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de construção civil, utilizando a plataforma AWS.
+Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de construção civil.
 
 > **Objetivos Específicos:**
 > - Detecção de Objetos em Tempo Real: Utilização de modelos de machine learning para a identificação de EPIs em imagens e vídeos capturados no ambiente de trabalho;
@@ -63,20 +63,37 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Aqui você deve descrever os benefícios esperados pela construção do projeto.
-> As justificativas do projeto explicam as razões e a necessidade da iniciativa.
-> Elas demonstram como o projeto atende a uma demanda específica, resolve um problema ou aproveita uma oportunidade identificada.
-> Além disso, definem os benefícios esperados e o impacto previsto para a organização ou a comunidade.
+> A segurança no ambiente de trabalho é uma prioridade inegociável, especialmente em obras de construção civil, onde os riscos de acidentes são elevados. A presença e o uso adequado de Equipamentos de Proteção Individual (EPIs) desempenham um papel crucial na mitigação desses riscos, garantindo a integridade física dos trabalhadores e a conformidade com as normas de segurança. Contudo, o processo de supervisão manual da utilização desses equipamentos tem se mostrado falho e ineficiente. Esse método não apenas está sujeito a erros humanos, mas também é limitado em termos de alcance e capacidade de monitoramento contínuo.
+> Neste contexto, a adoção de uma solução automatizada para a detecção de EPIs se torna essencial. Utilizando tecnologias avançadas de machine learning e serviços em nuvem da AWS, é possível desenvolver um sistema robusto que oferece monitoramento em tempo real, notificando instantaneamente qualquer ausência de EPIs obrigatórios. Essa abordagem não só aumenta a eficiência do processo de supervisão, mas também reduz drasticamente a probabilidade de incidentes, promovendo um ambiente de trabalho mais seguro.
+> Além dos benefícios imediatos de redução de acidentes e conformidade regulamentar, a implementação de tal sistema contribui para a otimização dos recursos da empresa. Ao automatizar tarefas repetitivas e críticas, como a verificação do uso de EPIs, os supervisores de segurança podem redirecionar seu foco para outras áreas de risco, melhorando a eficiência operacional. Adicionalmente, a geração de dashboards e relatórios detalhados oferece uma visibilidade completa e contínua sobre o uso de EPIs, fortalecendo a cultura de responsabilidade e transparência na obra.
+Outro ponto relevante é o impacto positivo que essa iniciativa pode ter na reputação da empresa. Ao demonstrar um compromisso sólido com a segurança dos trabalhadores, a organização não apenas se protege de possíveis sanções legais, mas também ganha a confiança de clientes, investidores e da comunidade em geral. Assim, o desenvolvimento deste projeto não apenas atende a uma necessidade crítica de segurança, mas também posiciona a empresa como uma líder em inovação e responsabilidade no setor de construção civil.
+
+> - Redução de Acidentes: A detecção em tempo real de EPIs permitirá uma resposta imediata à ausência de equipamentos de segurança, reduzindo significativamente o risco de acidentes.
+
+> - Conformidade Regulamentar: O sistema ajudará as empresas a se manterem em conformidade com as exigências legais e regulamentares, evitando multas e penalidades associadas à falta de EPIs.
+
+> - Eficiência Operacional: Automatizar o processo de monitoramento libera os supervisores de segurança para focarem em outras atividades críticas, aumentando a eficiência operacional e reduzindo custos com inspeções manuais.
+
+> - Transparência e Responsabilidade: O uso de dashboards e relatórios fornecerá visibilidade contínua sobre a conformidade com os EPIs, promovendo a responsabilidade entre os trabalhadores e a administração.
+
+> - Reputação e Confiança: Um ambiente de trabalho mais seguro melhora a reputação da empresa, aumentando a confiança de clientes, investidores e colaboradores.
 
 ## Critérios de Sucesso
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Para garantir que o projeto alcance os objetivos estabelecidos e traga os benefícios esperados, serão adotados os seguintes critérios de sucesso:
 
-> Os critérios de sucesso indicam uma forma avaliar o êxito do trabalho e analisar se o projeto realmente alcançou os objetivos estabelecidos.
-> Esses critérios geralmente abrangem diversas dimensões, incluindo a entrega dentro do prazo e orçamento estipulados, a satisfação do cliente, a qualidade do produto ou serviço final, e a eficiência na utilização de recursos.
-> Além disso, a capacidade de atender aos requisitos e expectativas das partes interessadas, bem como a gestão eficaz de riscos, são considerados aspectos importantes para determinar o sucesso de um projeto.
+> - Acurácia da Detecção: O modelo de machine learning implementado deve demonstrar uma elevada acurácia na identificação de EPIs, mesmo em condições adversas, como variações de iluminação, ângulos variados e diferentes tipos de equipamentos. A meta é atingir uma taxa de acurácia mínima de 95%, garantindo que o sistema seja confiável e eficaz em diferentes cenários operacionais.
+
+> - Tempo de Resposta: A capacidade de resposta em tempo real é um dos pilares do projeto. O sistema deve ser capaz de detectar e notificar a ausência de EPIs obrigatórios em menos de 5 segundos, permitindo que ações corretivas sejam tomadas de forma imediata, antes que qualquer incidente ocorra.
+
+> - Conformidade e Auditoria: A solução deve facilitar a geração de relatórios detalhados que comprovem a conformidade contínua com as normas de segurança estabelecidas. Esses relatórios serão essenciais para auditorias internas e externas, demonstrando o comprometimento da empresa com a segurança dos trabalhadores.
+
+> - Satisfação dos Stakeholders: A aceitação e satisfação dos principais stakeholders, incluindo supervisores de segurança, trabalhadores e administradores, são fundamentais para o sucesso do projeto. Para isso, serão realizadas pesquisas de feedback com o objetivo de atingir uma taxa de satisfação mínima de 90%, garantindo que o sistema atenda às expectativas e necessidades de todos os envolvidos.
+
+> - Entrega Dentro do Prazo e Orçamento: A gestão eficiente do projeto é crucial para o seu sucesso. O desenvolvimento e implementação da solução devem ser concluídos dentro do cronograma estabelecido e sem ultrapassar o orçamento aprovado, demonstrando a capacidade da equipe de gerenciamento em utilizar os recursos de forma eficaz.
+
+> - Aprimoramento Contínuo: O sistema deve ser projetado para se adaptar e melhorar continuamente, incorporando novos dados e feedback ao longo do tempo. Esse processo de aprendizado contínuo garantirá que a solução permaneça eficaz e relevante à medida que surgem novos desafios e requisitos no ambiente de trabalho. requisitos e expectativas das partes interessadas, bem como a gestão eficaz de riscos, são considerados aspectos importantes para determinar o sucesso de um projeto.
 
 # Partes Interessadas
 
