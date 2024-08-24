@@ -41,25 +41,25 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Problem corresponde a uma lacuna a ser preenchida, uma necessidade a ser atendida, ou uma dificuldade a ser superada.
-> A definição precisa do problema ajuda a orientar as atividades do projeto, direcionando os esforços em sua solução.
-> Seu entendimento facilita a comunicação eficaz entre os membros da equipe e as partes interessadas, estabelecendo uma base comum para a colaboração.
-> Nesta seção, deve ser descrito apenas o problema e seu contexto.
-> Soluções para o problema devem ser descritas na seção correspondente.
+> A segurança no ambiente de trabalho em obras de construção civil é uma questão crítica, onde a ausência de Equipamentos de Proteção Individual (EPIs) pode levar a acidentes graves, resultando em lesões ou até mesmo mortes. A supervisão manual do uso de EPIs é um processo falho e ineficiente, propenso a erros humanos e limitações de alcance.  
+Além disso, a falta de um sistema automatizado dificulta a monitorização em tempo real, comprometendo a capacidade de resposta rápida e proativa para evitar incidentes. Diante desse contexto, existe a necessidade de desenvolver uma solução que permita a detecção automática da presença ou ausência de EPIs, garantindo a conformidade com as normas de segurança e a proteção dos trabalhadores.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> **Objetivo Geral:**  
+Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de construção civil, utilizando a plataforma AWS.
 
-> Aqui você deve descrever os objetivos do trabalho.
-> Apresente um Objetivo Geral, sintetizado em uma única frase.
-> Apresente também 3 ou 4 objetivos específicos (sub-produtos do sistema ou objetivos extras que podem ser alcançados pela construção do software).
-> 
+> **Objetivos Específicos:**
+> - Detecção de Objetos em Tempo Real: Utilização de modelos de machine learning para a identificação de EPIs em imagens e vídeos capturados no ambiente de trabalho;  
+> - Integração com Serviços AWS: Implementação dos serviços AWS, como AWS Rekognition para detecção de objetos e AWS S3 para armazenamento de imagens e vídeos;  
+> - Alertas Automáticos: Desenvolvimento de um sistema de notificação que alerta os supervisores de segurança quando EPIs obrigatórios não são detectados;  
+> - Dashboard de Monitoramento: Criação de uma interface que permite o acompanhamento em tempo real do uso de EPIs na obra, com relatórios e estatísticas;  
+> - Treinamento e Aperfeiçoamento do Modelo: Coleta e rotulação de dados para treinar o modelo de detecção, com ajustes contínuos para melhorar a precisão.
+
+<!-- 
 > **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
+> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/) 
+-->
 
 ## Justificativa
 
