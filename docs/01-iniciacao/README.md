@@ -1,10 +1,10 @@
 # Iniciação
 
-> A fase de iniciação, em gerência de projetos, é o estágio que estabelece as bases para o sucesso do empreendimento. 
-> Durante essa etapa, os objetivos definidos, identificando-se suas metas, escopo, partes interessadas (*stakeholders*) e restrições. 
+> A fase de iniciação, em gerência de projetos, é o estágio que estabelece as bases para o sucesso do empreendimento.
+> Durante essa etapa, os objetivos definidos, identificando-se suas metas, escopo, partes interessadas (*stakeholders*) e restrições.
 > É o momento em que a viabilidade do projeto é avaliada, analisando-se recursos necessários, riscos potenciais e benefícios esperados.
 > Nesta etapa é elaborado o Termo de Abertura do Projeto (TAP).
-> Essa fase serve como um alicerce estratégico, proporcionando uma compreensão abrangente do que o projeto busca alcançar e delineando as diretrizes que orientarão as etapas subsequentes. 
+> Essa fase serve como um alicerce estratégico, proporcionando uma compreensão abrangente do que o projeto busca alcançar e delineando as diretrizes que orientarão as etapas subsequentes.
 > O sucesso na fase de iniciação contribui significativamente para a eficácia do gerenciamento de projetos como um todo.
 
 # Estrutura do Documento
@@ -50,10 +50,10 @@ Além disso, a falta de um sistema automatizado dificulta a monitorização em t
 Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de construção civil, utilizando a plataforma AWS.
 
 > **Objetivos Específicos:**
-> - Detecção de Objetos em Tempo Real: Utilização de modelos de machine learning para a identificação de EPIs em imagens e vídeos capturados no ambiente de trabalho;  
-> - Integração com Serviços AWS: Implementação dos serviços AWS, como AWS Rekognition para detecção de objetos e AWS S3 para armazenamento de imagens e vídeos;  
-> - Alertas Automáticos: Desenvolvimento de um sistema de notificação que alerta os supervisores de segurança quando EPIs obrigatórios não são detectados;  
-> - Dashboard de Monitoramento: Criação de uma interface que permite o acompanhamento em tempo real do uso de EPIs na obra, com relatórios e estatísticas;  
+> - Detecção de Objetos em Tempo Real: Utilização de modelos de machine learning para a identificação de EPIs em imagens e vídeos capturados no ambiente de trabalho;
+> - Integração com Serviços AWS: Implementação dos serviços AWS, como AWS Rekognition para detecção de objetos e AWS S3 para armazenamento de imagens e vídeos;
+> - Alertas Automáticos: Desenvolvimento de um sistema de notificação que alerta os supervisores de segurança quando EPIs obrigatórios não são detectados;
+> - Dashboard de Monitoramento: Criação de uma interface que permite o acompanhamento em tempo real do uso de EPIs na obra, com relatórios e estatísticas;
 > - Treinamento e Aperfeiçoamento do Modelo: Coleta e rotulação de dados para treinar o modelo de detecção, com ajustes contínuos para melhorar a precisão.
 
 <!-- 
@@ -68,19 +68,19 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 > Aqui você deve descrever os benefícios esperados pela construção do projeto.
 > As justificativas do projeto explicam as razões e a necessidade da iniciativa.
 > Elas demonstram como o projeto atende a uma demanda específica, resolve um problema ou aproveita uma oportunidade identificada.
-> Além disso, definem os benefícios esperados e o impacto previsto para a organização ou a comunidade. 
+> Além disso, definem os benefícios esperados e o impacto previsto para a organização ou a comunidade.
 
 ## Critérios de Sucesso
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Os critérios de sucesso indicam uma forma avaliar o êxito do trabalho e analisar se o projeto realmente alcançou os objetivos estabelecidos. 
-> Esses critérios geralmente abrangem diversas dimensões, incluindo a entrega dentro do prazo e orçamento estipulados, a satisfação do cliente, a qualidade do produto ou serviço final, e a eficiência na utilização de recursos. 
-> Além disso, a capacidade de atender aos requisitos e expectativas das partes interessadas, bem como a gestão eficaz de riscos, são considerados aspectos importantes para determinar o sucesso de um projeto. 
+> Os critérios de sucesso indicam uma forma avaliar o êxito do trabalho e analisar se o projeto realmente alcançou os objetivos estabelecidos.
+> Esses critérios geralmente abrangem diversas dimensões, incluindo a entrega dentro do prazo e orçamento estipulados, a satisfação do cliente, a qualidade do produto ou serviço final, e a eficiência na utilização de recursos.
+> Além disso, a capacidade de atender aos requisitos e expectativas das partes interessadas, bem como a gestão eficaz de riscos, são considerados aspectos importantes para determinar o sucesso de um projeto.
 
 # Partes Interessadas
 
-> Relacione as partes interessadas no seu projeto. 
+> Relacione as partes interessadas no seu projeto.
 > Você deve descrever as partes interessadas e indicar qual o nível de influência em relação ao projeto.
 > Indique as principais pessoas (clientes, fornecedores, etc), indicando possíveis expectativas, nível de influência e possível importância para o sucesso do projeto.
 
@@ -89,46 +89,25 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 ## Identificação das Partes Interessadas
 
-| Nome            | Posição / Cargo | Papel Projeto | E-mail      | Telefone    |
-|-----------------|-----------------|---------------|-------------|-------------|
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-
-> Opções de identificação dos stakeholders:
-> - Nome: nome da parte interessada (inclui funcionários da empresa e do cliente)
-> - Posição / Cargo: Identificação do cargo da parte interessada
-> - - Ex.: Gerente de TI, Funcionário da Linha de Produção, Presidente, Analista de Sistema do Cliente, Desenvolvedor, etc.
-> - Papel no Projeto: Papel da pessoa no projeto
-> - - Ex.: Desenvolvedor, Analista de Requisitos, Analista de Testes, Product Owner, etc.
-> - E-mail: E-mail do Stakeholder (*não utilizar informações pessoais*)
-> - Telefone: Telefone do Stakeholder, incluindo WhatsApp (*não utilizar informações pessoais*)
+| Nome            | Posição / Cargo      | Papel Projeto                               | E-mail                     | Telefone        |
+|-----------------|----------------------|---------------------------------------------|----------------------------|-----------------|
+| Wagner Moura    | Analista de testes   | Validação e Qualidade                       | moura.wagner@testes.dev    | (29) 4229-8621  |
+| Julia Rocha     | Desenvolvedora       | Interface gráfica                           | juliarocha@mail.google     | (15) 4567-4563  |
+| Marcio Costa    | Desenvolvedor        | Detecção de EPI                             | marciocosta@dev.ai         | (86) 5639-2690  |
+| Ricardo Almeida | Parceiro             | Patrocinador do projeto                     | recardo@almeida.perceiros  | (43) 5595-1150  |
+| Samira Santos   | Gerencia de produção | Administração do hardware usado na produção | samira@santos-producoes.br | (56) 97415-4102 |
+| Construtoras    | Usuários             | Usuários do sistema                         | --                         | --              |
 
 ## Avaliação das Partes Interessadas
 
-| Nome            | Expectativa no Projeto | Influência    | Importância / Poder | Apoio       | Observações   |
-|-----------------|------------------------|---------------|---------------------|-------------|---------------|
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-
-> Opções de avaliação:
-> - Expectativa: descrição da expectativa da parte interessada no projeto.
-> - - Ex.: Diminuição do tempo de realização das tarefas, aumento da produtividade, aumento da satisfação do cliente, etc.
-> - Influência: Alta, Média, Baixa
-> - Importância: Alta, Média, Baixa
-> - Apoio: Positivo, Negativo, Neutro
-> - Observações: Informações adicionais, para o cliente.
+| Nome            | Expectativa no Projeto                           | Influência | Importância / Poder | Apoio    | Observações |
+|-----------------|--------------------------------------------------|------------|---------------------|----------|-------------|
+| Wagner Moura    | Garantia de estabilidade e qualidade do projeto  | Alta       | Alta                | Positivo |             |
+| Julia Rocha     | Melhora da experiencia do cliente                | Baixa      | Média               | Neutro   |             |
+| Marcio Costa    | Aumento na precisão da detecção                  | Média      | Alta                | Positivo |             |
+| Ricardo Almeida | Maior orçamento para o desenvolvimento           | Alta       | Médio               | Neutro   |             |
+| Samira Santos   | Melhora na produção e monitoramento de qualidade | Baixa      | Média               | Neutro   |             |
+| Construtoras    | --                                               | Baixa      | Baixo               | Neutro   |             |
 
 ```diff
 + Tarefa 01
@@ -144,10 +123,10 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 # Termo de Abertura do Projeto
 
-> O Termo de Abertura do Projeto (TAP) representa o ponto de partida oficial para o empreendimento. 
-> Ele sintetiza de maneira clara e concisa os objetivos, escopo, partes interessadas envolvidas, entregas esperadas, cronograma preliminar e recursos necessários para a execução bem-sucedida do projeto. 
-> O TAP funciona como um contrato inicial entre a equipe do projeto e as partes interessadas, estabelecendo as bases para uma compreensão compartilhada dos propósitos e limites do projeto. 
-> Ao delinear esses elementos de forma detalhada, o Termo de Abertura do Projeto (TAP) fornece uma direção sólida para orientar as atividades subsequentes, facilitando a gestão eficaz do projeto desde o início até o encerramento. 
+> O Termo de Abertura do Projeto (TAP) representa o ponto de partida oficial para o empreendimento.
+> Ele sintetiza de maneira clara e concisa os objetivos, escopo, partes interessadas envolvidas, entregas esperadas, cronograma preliminar e recursos necessários para a execução bem-sucedida do projeto.
+> O TAP funciona como um contrato inicial entre a equipe do projeto e as partes interessadas, estabelecendo as bases para uma compreensão compartilhada dos propósitos e limites do projeto.
+> Ao delinear esses elementos de forma detalhada, o Termo de Abertura do Projeto (TAP) fornece uma direção sólida para orientar as atividades subsequentes, facilitando a gestão eficaz do projeto desde o início até o encerramento.
 > Essa documentação garante a clareza, alinhamento e comprometimento de todos os envolvidos, contribuindo assim para o sucesso do projeto.
 
 > Você pode utilizar como referência o seguinte documento:
@@ -157,10 +136,10 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> A avaliação da viabilidade econômica busca determinar a sustentabilidade financeira e o retorno sobre o investimento do empreendimento. 
-> Este processo envolve a análise dos custos associados ao projeto, incluindo investimentos iniciais, despesas operacionais e potenciais custos de manutenção. 
-> Simultaneamente, são examinados os benefícios esperados, como receitas, economias de custos e ganhos tangíveis e intangíveis. 
-> A elaboração de projeções financeiras realistas e a aplicação de métricas como o Valor Presente Líquido (VPL) e a Taxa Interna de Retorno (TIR) contribuem para uma avaliação abrangente da viabilidade econômica do projeto. 
+> A avaliação da viabilidade econômica busca determinar a sustentabilidade financeira e o retorno sobre o investimento do empreendimento.
+> Este processo envolve a análise dos custos associados ao projeto, incluindo investimentos iniciais, despesas operacionais e potenciais custos de manutenção.
+> Simultaneamente, são examinados os benefícios esperados, como receitas, economias de custos e ganhos tangíveis e intangíveis.
+> A elaboração de projeções financeiras realistas e a aplicação de métricas como o Valor Presente Líquido (VPL) e a Taxa Interna de Retorno (TIR) contribuem para uma avaliação abrangente da viabilidade econômica do projeto.
 > Este processo permite que os gestores de projeto e as partes interessadas tomem decisões informadas sobre a continuidade, ajustes ou mesmo a interrupção do projeto, garantindo uma alocação eficiente de recursos e maximizando os benefícios econômicos esperados.
 
 ......  ATUALIZE OS ITENS DE CUSTO DO SISTEMA. ADICIONE NOVOS OU SUBDIVIDA ITENS, CASO NECESSÁRIO ......
@@ -180,12 +159,12 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> A estimativa de prazo orienta tanto o cliente quanto a equipe de desenvolvimento do projeto em termos do tempo necessário para a conclusão do projeto como um todo. 
+> A estimativa de prazo orienta tanto o cliente quanto a equipe de desenvolvimento do projeto em termos do tempo necessário para a conclusão do projeto como um todo.
 > Esta estimativa possibilita a criação de um cronograma realista e viável, permitindo o planejamento adequado das fases do projeto, alocação de recursos de maneira eficiente e antecipação de eventuais desafios.
 > Uma estimativa precisa orienta a execução do projeto, contribui para a gestão de expectativas e para o estabelecimento de metas alcançáveis.
 
 > Indique:
-> * Prazo previsto (em horas) 
+> * Prazo previsto (em horas)
 > * Data de início
 > * Data de término
 
@@ -195,8 +174,8 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 ## Escopo Preliminar e Premissas
 
-> Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas. 
-> 
+> Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas.
+>
 > ***A quantidade mínima de requisitos a serem preenchidos nas seções abaixo não incluem os exemplos previamente fornecidos.***
 
 ## Declaração de Escopo
@@ -207,20 +186,20 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 > Enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 >
 > - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
+    >   correspondem a uma funcionalidade que deve estar presente na
+    >   plataforma (ex: cadastro de usuário).
 >
 > - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
+    >   correspondem a uma característica técnica, seja de usabilidade,
+    >   desempenho, confiabilidade, segurança ou outro (ex: suporte a
+    >   dispositivos iOS e Android).
 >
 > Lembre-se que cada requisito deve corresponder à uma e somente uma
 > característica alvo da sua solução. Além disso, certifique-se de que
 > todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
+>
 > **Links Úteis**:
-> 
+>
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
@@ -229,7 +208,7 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 ......  ATUALIZE OS REQUISITOS FUNCIONAIS DO SISTEMA (MÍNIMO 10) ......
 
-A tabela a seguir apresenta os requisitos funcionais do projeto. 
+A tabela a seguir apresenta os requisitos funcionais do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|-------|
@@ -240,7 +219,7 @@ A tabela a seguir apresenta os requisitos funcionais do projeto.
 
 ......  ATUALIZE OS REQUISITOS NÃO FUNCIONAIS DO SISTEMA (MÍNIMO 5) ......
 
-A tabela a seguir apresenta os requisitos não funcionais do projeto. 
+A tabela a seguir apresenta os requisitos não funcionais do projeto.
 
 |ID     | Descrição do Requisito                                            |Prioridade |
 |-------|-------------------------------------------------------------------|-----------|
@@ -252,7 +231,7 @@ A tabela a seguir apresenta os requisitos não funcionais do projeto.
 
 ......  ATUALIZE AS RESTRIÇÕES DO SISTEMA (MÍNIMO 5) ......
 
-A tabela a seguir apresenta as restrições do projeto. 
+A tabela a seguir apresenta as restrições do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|-------|
@@ -314,9 +293,9 @@ A tabela a seguir, identifique os marcos do projeto e os entregáveis previstos 
 
 > Nesta parte do documento, você deve apresentar a metodologia adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas e as ferramentas empregadas.
 >
-> Coloque detalhes sobre o processo utilizado e a implementação do Framework Scrum seguido pelo grupo. 
+> Coloque detalhes sobre o processo utilizado e a implementação do Framework Scrum seguido pelo grupo.
 > O grupo deverá gerenciar as tarefas utilizando o GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
-> 
+>
 > **Links Úteis**:
 > - [Github Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
 > - [O que é o GitHub Projects? | Guia de Iniciantes](https://www.youtube.com/watch?v=vxYTpsFKdiQ&ab_channel=JulioArruda)
