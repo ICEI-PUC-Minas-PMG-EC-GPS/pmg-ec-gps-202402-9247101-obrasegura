@@ -1,18 +1,21 @@
 ![ICEI](images/icei-pucminas.png)
 
-# Nome do projeto
+# Obra Segura
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva, em um ou dois parágrafos, um resumo do projeto (principais objetivos e justificativa).
+> O projeto tem como objetivo desenvolver uma solução automatizada para a detecção
+de Equipamentos de Proteção Individual (EPIs) em ambientes de construção civil,
+utilizando a plataforma AWS e suas ferramentas de inteligência artificial. A segurança
+no ambiente de trabalho é uma prioridade em obras de construção, e a ausência de
+EPIs pode resultar em acidentes graves. Com o uso de tecnologias avançadas, como
+visão computacional e machine learning, este projeto visa identificar em tempo real a
+presença ou ausência dos EPIs obrigatórios em trabalhadores, proporcionando um
+sistema de monitoramento eficiente e proativo
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1 (com link para Github)](https://github.com/aluno1)
-* [Nome completo do aluno 2 (com link para Github)](https://github.com/aluno2)
-* [Nome completo do aluno 3 (com link para Github)](https://github.com/aluno3)
-* [Nome completo do aluno 4 (com link para Github)](https://github.com/aluno4)
-* [Nome completo do aluno 5 (com link para Github)](https://github.com/aluno5)
+* [Samir da Morim Cambraia](https://github.com/SamCambraia1)
+* [Marcos Campos Dias](https://github.com/Awakened-Redstone)
+* [Wagnus Souza Corrêa](https://github.com/Wagnus13)
 
 ## Professor responsável
 
@@ -20,10 +23,13 @@
 
 ## Gerenciamento do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO (OPCIONAL) ......
+......  Detecção Automatizada de EPIs em Obras de Construção ......
 
-> Adicione aqui informações sobre o projeto que será gerenciado. 
-> Indique informações importantes sobre o projeto.
+> Ao longo do semestre, o foco será na criação de um modelo capaz de analisar imagens
+capturadas no local da obra e detectar automaticamente se os trabalhadores estão
+utilizando EPIs, como capacetes, luvas e demais itens de segurança. A implementação
+dessa solução contribuirá significativamente para a prevenção de acidentes e para a
+conformidade com as normas de segurança.
 
 Fases do Gerenciamento do Projeto:
 1. [Iniciação](docs/01-iniciacao)
@@ -46,7 +52,4 @@ Fases do Gerenciamento do Projeto:
 
 ## Informações Adicionais
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua aqui informações extra sobre o projeto.
-> Caso não existam informações extras, remova a seção.
+> Além dos benefícios imediatos de redução de acidentes e conformidade regulamentar, a implementação de tal sistema contribui para a otimização dos recursos da empresa. Ao automatizar tarefas repetitivas e críticas, como a verificação do uso de EPIs, os supervisores de segurança podem redirecionar seu foco para outras áreas de risco, melhorando a eficiência operacional. Adicionalmente, a geração de dashboards e relatórios detalhados oferece uma visibilidade completa e contínua sobre o uso de EPIs, fortalecendo a cultura de responsabilidade e transparência na obra.
