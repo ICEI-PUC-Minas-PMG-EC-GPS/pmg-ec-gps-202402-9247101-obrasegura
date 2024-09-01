@@ -160,19 +160,19 @@ Este processo permite que os gestores de projeto e as partes interessadas tomem 
 
 ### Tabela de Estimativa de Custo
 
-| Item de Custo           | Descrição                                                 | Qtd. horas | Valor / hora | Valor total     |
-|-------------------------|-----------------------------------------------------------|------------|--------------|-----------------|
-| Recursos Humanos        | Equipe de desenvolvedores e especialistas em ML/AI         | 1200       | R$ 150,00    | R$ 180.000,00   |
-| Hardware                | Câmeras e computadores de processamento  | -          | -            | R$ 50.000,00    |
-| Serviços de Rede        | Configuração de rede para coleta de dados                  | 200        | R$ 50,00     | R$ 10.000,00    |
-| Hospedagem e Nuvem      | Serviços Cloud (Rekognition, S3, EC2, etc.)                  | 300        | R$ 100,00    | R$ 30.000,00    |
-| Software de terceiros   | Licenças para ferramentas de análise e detecção de objetos | 150        | R$ 100,00    | R$ 15.000,00    |
-| Serviços e treinamento  | Treinamento para equipe e suporte ao usuário final         | 400        | R$ 50,00     | R$ 20.000,00    |
-| Manutenção do Sistema   | Atualizações e ajustes no sistema pós-implementação        | 300        | R$ 120,00    | R$ 36.000,00    |
-| Marketing e Divulgação  | Campanhas de divulgação do sistema e seus benefícios       | 100        | R$ 80,00     | R$ 8.000,00     |
-| Consultoria de Segurança| Consultoria para garantir conformidade com normas de segurança | 100   | R$ 200,00    | R$ 20.000,00    |
-| Testes e Validação      | Testes de campo para validação da solução em ambientes reais| 250       | R$ 80,00     | R$ 20.000,00    |
-| **Total Geral**         |                                                           | -          | -            | **R$ 389.000,00** |
+| Item de Custo            | Descrição                                                      | Qtd. horas | Valor / hora | Valor total       |
+|--------------------------|----------------------------------------------------------------|------------|--------------|-------------------|
+| Recursos Humanos         | Equipe de desenvolvedores e especialistas em ML/AI             | 1200       | R$ 150,00    | R$ 180.000,00     |
+| Hardware                 | Câmeras e computadores de processamento                        | -          | -            | R$ 50.000,00      |
+| Serviços de Rede         | Configuração de rede para coleta de dados                      | 200        | R$ 50,00     | R$ 10.000,00      |
+| Hospedagem e Nuvem       | Serviços Cloud (Rekognition, S3, EC2, etc.)                    | 300        | R$ 100,00    | R$ 30.000,00      |
+| Software de terceiros    | Licenças para ferramentas de análise e detecção de objetos     | 150        | R$ 100,00    | R$ 15.000,00      |
+| Serviços e treinamento   | Treinamento para equipe e suporte ao usuário final             | 400        | R$ 50,00     | R$ 20.000,00      |
+| Manutenção do Sistema    | Atualizações e ajustes no sistema pós-implementação            | 300        | R$ 120,00    | R$ 36.000,00      |
+| Marketing e Divulgação   | Campanhas de divulgação do sistema e seus benefícios           | 100        | R$ 80,00     | R$ 8.000,00       |
+| Consultoria de Segurança | Consultoria para garantir conformidade com normas de segurança | 100        | R$ 200,00    | R$ 20.000,00      |
+| Testes e Validação       | Testes de campo para validação da solução em ambientes reais   | 250        | R$ 80,00     | R$ 20.000,00      |
+| **Total Geral**          |                                                                | -          | -            | **R$ 389.000,00** |
 
 
 ## Estimativa de Prazo
@@ -217,74 +217,82 @@ Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidade
 
 ### Requisitos Funcionais
 
-......  ATUALIZE OS REQUISITOS FUNCIONAIS DO SISTEMA (MÍNIMO 10) ......
-
 A tabela a seguir apresenta os requisitos funcionais do projeto.
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                            | Prioridade |
+|--------|---------------------------------------------------|------------|
+| RF-001 | Acesso ao feed das cameras com os overlays        | ALTA       | 
+| RF-002 | Detectar a presença de EPI                        | ALTA       | 
+| RF-003 | Verificar se uma pessoa foi detectada sem EPI     | ALTA       |
+| RF-004 | Salvar imagens de momentos de violação            | ALTA       |
+| RF-005 | Marcar a area e momento da violação               | MÉDIA      |
+| RF-006 | Salvar momento do video no momento da violação    | MÉDIA      |
+| RF-007 | Interface web para acesso em qualquer dispositivo | ALTA       |
+| RF-008 | Permitir que o usuário cadastre                   | ALTA       |
+| RF-009 | Envio de relatório diário                         | MÉDIA      |
+| RF-010 | Detectar movimento                                | MÉDIA      |
 
 ### Requisitos Não Funcionais
 
-......  ATUALIZE OS REQUISITOS NÃO FUNCIONAIS DO SISTEMA (MÍNIMO 5) ......
-
 A tabela a seguir apresenta os requisitos não funcionais do projeto.
 
-|ID     | Descrição do Requisito                                            |Prioridade |
-|-------|-------------------------------------------------------------------|-----------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA     | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s             | BAIXA     | 
+| ID      | Descrição do Requisito                                            | Prioridade |
+|---------|-------------------------------------------------------------------|------------|
+| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA      | 
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | MÉDIA      | 
+| RNF-003 | Funcionar com vários tipos de camera                              | BAIXA      | 
+| RNF-004 | Enviar notificação em caso de violação                            | MÉDIA      | 
+| RNF-005 | Customização de requisitos                                        | BAIXA      | 
 
 
 ### Restrições
 
-......  ATUALIZE AS RESTRIÇÕES DO SISTEMA (MÍNIMO 5) ......
-
 A tabela a seguir apresenta as restrições do projeto.
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RE-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RE-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                        | Prioridade |
+|--------|-----------------------------------------------|------------|
+| RE-001 | Permitir que o usuário cadastre               | ALTA       | 
+| RE-002 | Interface para acesso ao conteúdo             | ALTA       |
+| RE-003 | Verificar se uma pessoa foi detectada sem EPI | ALTA       |
+| RE-004 | Salvar imagens de momentos de violação        | MÉDIA      |
+| RE-005 | Detectar a presença de EPI                    | MÉDIA      |
 
 
 ### Contra-Escopo
 
-| ID    | Descrição do Contra-Escopo                                                   | 
-|-------|------------------------------------------------------------------------------|
-| CE-001| Treinamento de modelo de linguagem natural (LLM).                             |
-| CE-002| Pesquisa de viabilidade do mercado.                                           |
-| CE-003| Desenvolvimento de hardware proprietário para captura de imagens.             |
-| CE-004| Monitoramento de condições ambientais, como temperatura e umidade.            |
-| CE-005| Suporte a plataformas de nuvem que não sejam Cloud.                             |
-| CE-006| Implementação de funcionalidades de gestão de projetos dentro do sistema.     |
-| CE-007| Desenvolvimento de aplicativos móveis nativos para plataformas específicas.   |
+| ID     | Descrição do Contra-Escopo                                                  | 
+|--------|-----------------------------------------------------------------------------|
+| CE-001 | Treinamento de modelo de linguagem natural (LLM).                           |
+| CE-002 | Pesquisa de viabilidade do mercado.                                         |
+| CE-003 | Desenvolvimento de hardware proprietário para captura de imagens.           |
+| CE-004 | Monitoramento de condições ambientais, como temperatura e umidade.          |
+| CE-005 | Suporte a plataformas de nuvem que não sejam Cloud.                         |
+| CE-006 | Implementação de funcionalidades de gestão de projetos dentro do sistema.   |
+| CE-007 | Desenvolvimento de aplicativos móveis nativos para plataformas específicas. |
 
 
 ### Condições para início do Projeto
 
-| ID     | Descrição de Condições para Início do Projeto                                  | 
-|--------|--------------------------------------------------------------------------------|
-| CI-001 | Assinatura de contrato de prestação de serviços.                               |
-| CI-002 | Apresentação de garantias definidas no contrato.                               |
-| CI-003 | Disponibilidade de acesso aos recursos e serviços Cloud necessários.              |
-| CI-004 | Aquisição e configuração das câmeras para a segurança nas obras.                    |
-| CI-005 | Treinamento inicial da equipe de segurança para uso do sistema.                 |
+| ID     | Descrição de Condições para Início do Projeto                        | 
+|--------|----------------------------------------------------------------------|
+| CI-001 | Assinatura de contrato de prestação de serviços.                     |
+| CI-002 | Apresentação de garantias definidas no contrato.                     |
+| CI-003 | Disponibilidade de acesso aos recursos e serviços Cloud necessários. |
+| CI-004 | Aquisição e configuração das câmeras para a segurança nas obras.     |
+| CI-005 | Treinamento inicial da equipe de segurança para uso do sistema.      |
 
 ## Marcos Agendados e Entregas
 
-| ID   | Marco do Projeto                                                                 | 
-|------|-----------------------------------------------------------------------------------|
-| M-1  | Liberação do sistema para cadastro de informações e configuração inicial.         |
-| M-2  | Permissão para uso do sistema por usuários focais.                                |
-| M-3  | Conclusão da integração com câmeras para a segurança.               |
-| M-4  | Desenvolvimento e integração do painel de monitoramento em tempo real.            |
-| M-5  | Testes de desempenho e conformidade.                                              |
-| M-6  | Entrega final da solução e início do treinamento do usuário final.                |
-| M-7  | Auditoria de conformidade com segurança após 3 meses de uso.                      |
-| M-8  | Lançamento da versão 2.0 com melhorias baseadas no feedback do usuário.           |
+| ID  | Marco do Projeto                                                          | 
+|-----|---------------------------------------------------------------------------|
+| M-1 | Liberação do sistema para cadastro de informações e configuração inicial. |
+| M-2 | Permissão para uso do sistema por usuários focais.                        |
+| M-3 | Conclusão da integração com câmeras para a segurança.                     |
+| M-4 | Desenvolvimento e integração do painel de monitoramento em tempo real.    |
+| M-5 | Testes de desempenho e conformidade.                                      |
+| M-6 | Entrega final da solução e início do treinamento do usuário final.        |
+| M-7 | Auditoria de conformidade com segurança após 3 meses de uso.              |
+| M-8 | Lançamento da versão 2.0 com melhorias baseadas no feedback do usuário.   |
 
 ```diff
 + Tarefa 02
@@ -329,16 +337,16 @@ A tabela a seguir apresenta as restrições do projeto.
 > Qualquer tipo de ferramenta que for utilizada para construção de um artefato deve ser identificada, uma vez que podem ser necessárias alterações.
 > A necessidade de uso de licenças e possíveis custos relacionados devem ser indicados.
 
-| Ambiente              | Plataforma         | Link de Acesso             | Justificativa |
-|-----------------------|--------------------|----------------------------|---------------|
+| Ambiente              | Plataforma         | Link de Acesso             | Justificativa                                                  |
+|-----------------------|--------------------|----------------------------|----------------------------------------------------------------|
 | Quadro Kanban         | Github             | https://github.com/XXXXXXX | Centralização e organização do projeto no próprio repositório. |
-| Repositório de código | GitHub             | https://github.com/XXXXXXX |               |
-| Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX  |               |
-| Documentos Textuais   | LibreOffice Writer | N/A                        |               |
-| Planilhas e Gráficos  | Google Planilhas   | https://docs.google.com/   |               |
-| EAP / WBS             | | | |
-| Cronograma do Projeto | | | |
-| Matriz RACI           | | | |
+| Repositório de código | GitHub             | https://github.com/XXXXXXX |                                                                |
+| Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX  |                                                                |
+| Documentos Textuais   | LibreOffice Writer | N/A                        |                                                                |
+| Planilhas e Gráficos  | Google Planilhas   | https://docs.google.com/   |                                                                |
+| EAP / WBS             |                    |                            |                                                                |
+| Cronograma do Projeto |                    |                            |                                                                |
+| Matriz RACI           |                    |                            |                                                                |
 
 ```diff
 + Tarefa 03:
