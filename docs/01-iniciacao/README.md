@@ -51,7 +51,7 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 > **Objetivos Específicos:**
 > - Detecção de Objetos em Tempo Real: Utilização de modelos de machine learning para a identificação de EPIs em imagens e vídeos capturados no ambiente de trabalho;
-> - Integração com Serviços AWS: Implementação dos serviços AWS, como AWS Rekognition para detecção de objetos e AWS S3 para armazenamento de imagens e vídeos;
+> - Integração com Serviços Cloud: Implementação dos serviços Cloud, como Cloud Rekognition para detecção de objetos e Cloud S3 para armazenamento de imagens e vídeos;
 > - Alertas Automáticos: Desenvolvimento de um sistema de notificação que alerta os supervisores de segurança quando EPIs obrigatórios não são detectados;
 > - Dashboard de Monitoramento: Criação de uma interface que permite o acompanhamento em tempo real do uso de EPIs na obra, com relatórios e estatísticas;
 > - Treinamento e Aperfeiçoamento do Modelo: Coleta e rotulação de dados para treinar o modelo de detecção, com ajustes contínuos para melhorar a precisão.
@@ -65,9 +65,10 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 
 > A segurança no ambiente de trabalho é uma prioridade inegociável, especialmente em obras de construção civil, onde os riscos de acidentes são elevados. A presença e o uso adequado de Equipamentos de Proteção Individual (EPIs) desempenham um papel crucial na mitigação desses riscos, garantindo a integridade física dos trabalhadores e a conformidade com as normas de segurança. Contudo, o processo de supervisão manual da utilização desses equipamentos tem se mostrado falho e ineficiente. Esse método não apenas está sujeito a erros humanos, mas também é limitado em termos de alcance e capacidade de monitoramento contínuo.
-> Neste contexto, a adoção de uma solução automatizada para a detecção de EPIs se torna essencial. Utilizando tecnologias avançadas de machine learning e serviços em nuvem da AWS, é possível desenvolver um sistema robusto que oferece monitoramento em tempo real, notificando instantaneamente qualquer ausência de EPIs obrigatórios. Essa abordagem não só aumenta a eficiência do processo de supervisão, mas também reduz drasticamente a probabilidade de incidentes, promovendo um ambiente de trabalho mais seguro.
+> Neste contexto, a adoção de uma solução automatizada para a detecção de EPIs se torna essencial. Utilizando tecnologias avançadas de machine learning e serviços em nuvem da Cloud, é possível desenvolver um sistema robusto que oferece monitoramento em tempo real, notificando instantaneamente qualquer ausência de EPIs obrigatórios. Essa abordagem não só aumenta a eficiência do processo de supervisão, mas também reduz drasticamente a probabilidade de incidentes, promovendo um ambiente de trabalho mais seguro.
+
 > Além dos benefícios imediatos de redução de acidentes e conformidade regulamentar, a implementação de tal sistema contribui para a otimização dos recursos da empresa. Ao automatizar tarefas repetitivas e críticas, como a verificação do uso de EPIs, os supervisores de segurança podem redirecionar seu foco para outras áreas de risco, melhorando a eficiência operacional. Adicionalmente, a geração de dashboards e relatórios detalhados oferece uma visibilidade completa e contínua sobre o uso de EPIs, fortalecendo a cultura de responsabilidade e transparência na obra.
-Outro ponto relevante é o impacto positivo que essa iniciativa pode ter na reputação da empresa. Ao demonstrar um compromisso sólido com a segurança dos trabalhadores, a organização não apenas se protege de possíveis sanções legais, mas também ganha a confiança de clientes, investidores e da comunidade em geral. Assim, o desenvolvimento deste projeto não apenas atende a uma necessidade crítica de segurança, mas também posiciona a empresa como uma líder em inovação e responsabilidade no setor de construção civil.
+> Outro ponto relevante é o impacto positivo que essa iniciativa pode ter na reputação da empresa. Ao demonstrar um compromisso sólido com a segurança dos trabalhadores, a organização não apenas se protege de possíveis sanções legais, mas também ganha a confiança de clientes, investidores e da comunidade em geral. Assim, o desenvolvimento deste projeto não apenas atende a uma necessidade crítica de segurança, mas também posiciona a empresa como uma líder em inovação e responsabilidade no setor de construção civil.
 
 > - Redução de Acidentes: A detecção em tempo real de EPIs permitirá uma resposta imediata à ausência de equipamentos de segurança, reduzindo significativamente o risco de acidentes.
 
@@ -151,49 +152,42 @@ Outro ponto relevante é o impacto positivo que essa iniciativa pode ter na repu
 
 ## Estimativa de Custo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A avaliação da viabilidade econômica busca determinar a sustentabilidade financeira e o retorno sobre o investimento do empreendimento.  
+Este processo envolve a análise dos custos associados ao projeto, incluindo investimentos iniciais, despesas operacionais e potenciais custos de manutenção.  
+Simultaneamente, são examinados os benefícios esperados, como receitas, economias de custos e ganhos tangíveis e intangíveis.  
+A elaboração de projeções financeiras realistas e a aplicação de métricas como o Valor Presente Líquido (VPL) e a Taxa Interna de Retorno (TIR) contribuem para uma avaliação abrangente da viabilidade econômica do projeto.  
+Este processo permite que os gestores de projeto e as partes interessadas tomem decisões informadas sobre a continuidade, ajustes ou mesmo a interrupção do projeto, garantindo uma alocação eficiente de recursos e maximizando os benefícios econômicos esperados.
 
-> A avaliação da viabilidade econômica busca determinar a sustentabilidade financeira e o retorno sobre o investimento do empreendimento.
-> Este processo envolve a análise dos custos associados ao projeto, incluindo investimentos iniciais, despesas operacionais e potenciais custos de manutenção.
-> Simultaneamente, são examinados os benefícios esperados, como receitas, economias de custos e ganhos tangíveis e intangíveis.
-> A elaboração de projeções financeiras realistas e a aplicação de métricas como o Valor Presente Líquido (VPL) e a Taxa Interna de Retorno (TIR) contribuem para uma avaliação abrangente da viabilidade econômica do projeto.
-> Este processo permite que os gestores de projeto e as partes interessadas tomem decisões informadas sobre a continuidade, ajustes ou mesmo a interrupção do projeto, garantindo uma alocação eficiente de recursos e maximizando os benefícios econômicos esperados.
+### Tabela de Estimativa de Custo
 
-......  ATUALIZE OS ITENS DE CUSTO DO SISTEMA. ADICIONE NOVOS OU SUBDIVIDA ITENS, CASO NECESSÁRIO ......
-
-| Item de Custo           | Descrição | Qtd. horas | Valor / hora | Valor total |
-|-------------------------|-----------|------------|--------------|-------------|
-| Recursos Humanos        |           |            |              |             |
-| Hardware                |           |            |              |             |
-| Serviços de Rede        |           |            |              |             |
-| Hospedagem e Nuvem      |           |            |              |             |
-| Software de terceiros   |           |            |              |             |
-| Serviços e treinamento  |           |            |              |             |
-| **Total Geral**         |           |            |              |             |
+| Item de Custo           | Descrição                                                 | Qtd. horas | Valor / hora | Valor total     |
+|-------------------------|-----------------------------------------------------------|------------|--------------|-----------------|
+| Recursos Humanos        | Equipe de desenvolvedores e especialistas em ML/AI         | 1200       | R$ 150,00    | R$ 180.000,00   |
+| Hardware                | Câmeras e computadores de processamento  | -          | -            | R$ 50.000,00    |
+| Serviços de Rede        | Configuração de rede para coleta de dados                  | 200        | R$ 50,00     | R$ 10.000,00    |
+| Hospedagem e Nuvem      | Serviços Cloud (Rekognition, S3, EC2, etc.)                  | 300        | R$ 100,00    | R$ 30.000,00    |
+| Software de terceiros   | Licenças para ferramentas de análise e detecção de objetos | 150        | R$ 100,00    | R$ 15.000,00    |
+| Serviços e treinamento  | Treinamento para equipe e suporte ao usuário final         | 400        | R$ 50,00     | R$ 20.000,00    |
+| Manutenção do Sistema   | Atualizações e ajustes no sistema pós-implementação        | 300        | R$ 120,00    | R$ 36.000,00    |
+| Marketing e Divulgação  | Campanhas de divulgação do sistema e seus benefícios       | 100        | R$ 80,00     | R$ 8.000,00     |
+| Consultoria de Segurança| Consultoria para garantir conformidade com normas de segurança | 100   | R$ 200,00    | R$ 20.000,00    |
+| Testes e Validação      | Testes de campo para validação da solução em ambientes reais| 250       | R$ 80,00     | R$ 20.000,00    |
+| **Total Geral**         |                                                           | -          | -            | **R$ 389.000,00** |
 
 
 ## Estimativa de Prazo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A estimativa de prazo orienta tanto o cliente quanto a equipe de desenvolvimento do projeto em termos do tempo necessário para a conclusão do projeto como um todo.  
+Esta estimativa possibilita a criação de um cronograma realista e viável, permitindo o planejamento adequado das fases do projeto, alocação de recursos de maneira eficiente e antecipação de eventuais desafios.  
+Uma estimativa precisa orienta a execução do projeto, contribui para a gestão de expectativas e para o estabelecimento de metas alcançáveis.
 
-> A estimativa de prazo orienta tanto o cliente quanto a equipe de desenvolvimento do projeto em termos do tempo necessário para a conclusão do projeto como um todo.
-> Esta estimativa possibilita a criação de um cronograma realista e viável, permitindo o planejamento adequado das fases do projeto, alocação de recursos de maneira eficiente e antecipação de eventuais desafios.
-> Uma estimativa precisa orienta a execução do projeto, contribui para a gestão de expectativas e para o estabelecimento de metas alcançáveis.
-
-> Indique:
-> * Prazo previsto (em horas)
-> * Data de início
-> * Data de término
-
-* Prazo previsto (em horas): XX horas
-* Data de início: __ / __ / _____
-* Data de término: __ / __ / _____
+- **Prazo previsto (em horas):** 4000 horas  
+- **Data de início:** 08/08/2024  
+- **Data de término:** 21/12/2024  
 
 ## Escopo Preliminar e Premissas
 
-> Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas.
->
-> ***A quantidade mínima de requisitos a serem preenchidos nas seções abaixo não incluem os exemplos previamente fornecidos.***
+Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas.
 
 ## Declaração de Escopo
 
@@ -258,40 +252,39 @@ A tabela a seguir apresenta as restrições do projeto.
 
 ### Contra-Escopo
 
-......  ATUALIZE O CONTRA-ESCOPO DO SISTEMA (MÍNIMO 5) ......
+| ID    | Descrição do Contra-Escopo                                                   | 
+|-------|------------------------------------------------------------------------------|
+| CE-001| Treinamento de modelo de linguagem natural (LLM).                             |
+| CE-002| Pesquisa de viabilidade do mercado.                                           |
+| CE-003| Desenvolvimento de hardware proprietário para captura de imagens.             |
+| CE-004| Monitoramento de condições ambientais, como temperatura e umidade.            |
+| CE-005| Suporte a plataformas de nuvem que não sejam Cloud.                             |
+| CE-006| Implementação de funcionalidades de gestão de projetos dentro do sistema.     |
+| CE-007| Desenvolvimento de aplicativos móveis nativos para plataformas específicas.   |
 
-A tabela a seguir apresenta as atividades que não serão executadas no projeto
-
-|ID    | Descrição do Contra-Escopo          | 
-|------|-------------------------------------|
-|CE-001| Treinamento de modelo de LLM        |
-|CE-002| Pesquisa de viabilidade do mercado. |
 
 ### Condições para início do Projeto
 
-......  ATUALIZE AS CONDIÇÕES PARA INÍCIO DOS PROJETOS (MÍNIMO 3) ......
-
-A tabela a seguir, apresente as condições para que o projeto seja iniciado.
-
-|ID    | Descrição de Condições para Início do Projeto    | 
-|------|--------------------------------------------------|
-|CI-001| Assinatura de contrato de prestação de serviços. |
-|CI-002| Apresentação de garantias definidas no contrato. |
+| ID     | Descrição de Condições para Início do Projeto                                  | 
+|--------|--------------------------------------------------------------------------------|
+| CI-001 | Assinatura de contrato de prestação de serviços.                               |
+| CI-002 | Apresentação de garantias definidas no contrato.                               |
+| CI-003 | Disponibilidade de acesso aos recursos e serviços Cloud necessários.              |
+| CI-004 | Aquisição e configuração das câmeras para a segurança nas obras.                    |
+| CI-005 | Treinamento inicial da equipe de segurança para uso do sistema.                 |
 
 ## Marcos Agendados e Entregas
 
-......  ATUALIZE OS MARCOS AGENDADOS DO PROJETO E AS DATAS PARA ENTREGAS DAS TAREFAS ......
-
-A tabela a seguir, identifique os marcos do projeto e os entregáveis previstos (requisitos).
-
-|ID   | Marco do Projeto                                                  | 
-|-----|-------------------------------------------------------------------|
-|M-1  | Liberação do sistema para cadastro de informações e configuração. |
-|M-2  | Permissão para uso do sistema, por usuários focais.               |
-|M-3  |                                                                   |
-|M-4  |                                                                   |
-|M-5  |                                                                   |
-|M-6  |                                                                   |
+| ID   | Marco do Projeto                                                                 | 
+|------|-----------------------------------------------------------------------------------|
+| M-1  | Liberação do sistema para cadastro de informações e configuração inicial.         |
+| M-2  | Permissão para uso do sistema por usuários focais.                                |
+| M-3  | Conclusão da integração com câmeras para a segurança.               |
+| M-4  | Desenvolvimento e integração do painel de monitoramento em tempo real.            |
+| M-5  | Testes de desempenho e conformidade.                                              |
+| M-6  | Entrega final da solução e início do treinamento do usuário final.                |
+| M-7  | Auditoria de conformidade com segurança após 3 meses de uso.                      |
+| M-8  | Lançamento da versão 2.0 com melhorias baseadas no feedback do usuário.           |
 
 ```diff
 + Tarefa 02
