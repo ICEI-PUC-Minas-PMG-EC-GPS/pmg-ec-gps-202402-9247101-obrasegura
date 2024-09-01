@@ -141,14 +141,23 @@ Detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de 
 
 # Termo de Abertura do Projeto
 
-> O Termo de Abertura do Projeto (TAP) representa o ponto de partida oficial para o empreendimento.
-> Ele sintetiza de maneira clara e concisa os objetivos, escopo, partes interessadas envolvidas, entregas esperadas, cronograma preliminar e recursos necessários para a execução bem-sucedida do projeto.
-> O TAP funciona como um contrato inicial entre a equipe do projeto e as partes interessadas, estabelecendo as bases para uma compreensão compartilhada dos propósitos e limites do projeto.
-> Ao delinear esses elementos de forma detalhada, o Termo de Abertura do Projeto (TAP) fornece uma direção sólida para orientar as atividades subsequentes, facilitando a gestão eficaz do projeto desde o início até o encerramento.
-> Essa documentação garante a clareza, alinhamento e comprometimento de todos os envolvidos, contribuindo assim para o sucesso do projeto.
+O projeto tem como objetivo desenvolver uma solução automatizada para a detecção de Equipamentos de Proteção Individual (EPIs) em ambientes de construção civil, utilizando a plataforma AWS e suas ferramentas de inteligência artificial. A segurança no ambiente de trabalho é uma prioridade em obras de construção, e a ausência de EPIs pode resultar em acidentes graves. Com o uso de tecnologias avançadas, como visão computacional e machine learning, este projeto visa identificar em tempo real a presença ou ausência dos EPIs obrigatórios em trabalhadores, proporcionando um sistema de monitoramento eficiente e proativo.
 
-> Você pode utilizar como referência o seguinte documento:
-> [Termo de Abertura do Projeto](artefatos/termo-abertura-projeto.docx)
+Ao longo do semestre, o foco será na criação de um modelo capaz de analisar imagens capturadas no local da obra e detectar automaticamente se os trabalhadores estão utilizando EPIs, como capacetes, luvas e demais itens de segurança. A implementação dessa solução contribuirá significativamente para a prevenção de acidentes e para a conformidade com as normas de segurança.
+
+## Possíveis Funcionalidades e Recursos Necessários
+
+- **Detecção de Objetos em Tempo Real:** Utilização de modelos de machine learning para a identificação de EPIs em imagens e vídeos capturados no ambiente de trabalho.
+  
+- **Integração com Serviços em cloud :** Implementação dos serviços em plataforma nuvem, como AWS Rekognition para detecção de objetos e AWS S3 para armazenamento de imagens e vídeos.
+  
+- **Alertas Automáticos:** Desenvolvimento de um sistema de notificação que alerta os supervisores de segurança quando EPIs obrigatórios não são detectados.
+  
+- **Dashboard de Monitoramento:** Criação de uma interface que permite o acompanhamento em tempo real do uso de EPIs na obra, com relatórios e estatísticas.
+  
+- **Treinamento e Aperfeiçoamento do Modelo:** Coleta e rotulação de dados para treinar o modelo de detecção, com ajustes contínuos para melhorar a precisão.
+
+Recursos necessários incluem a utilização de câmeras de alta definição para captura de imagens, acesso à plataforma AWS, além de conhecimentos em machine learning, visão computacional, e desenvolvimento de software em cloud.
 
 ## Estimativa de Custo
 
@@ -187,33 +196,15 @@ Uma estimativa precisa orienta a execução do projeto, contribui para a gestão
 
 ## Escopo Preliminar e Premissas
 
-Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas.
+A seguir, os requisitos foram classificados em dois grupos: Requisitos Funcionais (RF) e Requisitos Não Funcionais (RNF). Cada requisito corresponde a uma característica específica da solução.
 
-## Declaração de Escopo
+#### Requisitos Funcionais (RF)
 
-> Você pode utilizar como referência o seguinte documento:
-- [Declaração de Escopo](artefatos/declaracao-escopo.docx)
-
-> Enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-    >   correspondem a uma funcionalidade que deve estar presente na
-    >   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-    >   correspondem a uma característica técnica, seja de usabilidade,
-    >   desempenho, confiabilidade, segurança ou outro (ex: suporte a
-    >   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Links Úteis**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+1. **RF01 - Detecção de EPIs em Tempo Real:** O sistema deve identificar a presença ou ausência de EPIs, como capacetes e luvas, em trabalhadores a partir de imagens capturadas no ambiente de construção.
+2. **RF02 - Notificações Automáticas:** O sistema deve enviar alertas automáticos para os supervisores de segurança quando um EPI obrigatório não for detectado.
+3. **RF03 - Integração com AWS Rekognition:** A solução deve integrar-se ao AWS Rekognition para realizar a detecção de objetos em imagens e vídeos.
+4. **RF04 - Armazenamento de Imagens e Vídeos:** O sistema deve utilizar o AWS S3 para armazenar de forma segura todas as imagens e vídeos capturados.
+5. **RF05 - Dashboard de Monitoramento:** Deve ser desenvolvido um painel de controle que permita o acompanhamento em tempo real do uso de EPIs na obra, com relatórios e estatísticas.
 
 ### Requisitos Funcionais
 
@@ -221,12 +212,12 @@ A tabela a seguir apresenta os requisitos funcionais do projeto.
 
 | ID     | Descrição do Requisito                            | Prioridade |
 |--------|---------------------------------------------------|------------|
-| RF-001 | Acesso ao feed das cameras com os overlays        | ALTA       | 
+| RF-001 | Acesso ao feed das câmeras com os overlays         | ALTA       | 
 | RF-002 | Detectar a presença de EPI                        | ALTA       | 
 | RF-003 | Verificar se uma pessoa foi detectada sem EPI     | ALTA       |
 | RF-004 | Salvar imagens de momentos de violação            | ALTA       |
-| RF-005 | Marcar a area e momento da violação               | MÉDIA      |
-| RF-006 | Salvar momento do video no momento da violação    | MÉDIA      |
+| RF-005 | Marcar a área e momento da violação               | MÉDIA      |
+| RF-006 | Salvar momento do vídeo no momento da violação    | MÉDIA      |
 | RF-007 | Interface web para acesso em qualquer dispositivo | ALTA       |
 | RF-008 | Permitir que o usuário cadastre                   | ALTA       |
 | RF-009 | Envio de relatório diário                         | MÉDIA      |
@@ -238,27 +229,27 @@ A tabela a seguir apresenta os requisitos não funcionais do projeto.
 
 | ID      | Descrição do Requisito                                            | Prioridade |
 |---------|-------------------------------------------------------------------|------------|
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA      | 
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | MÉDIA      | 
-| RNF-003 | Funcionar com vários tipos de camera                              | BAIXA      | 
+| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivo móvel  | MÉDIA      | 
+| RNF-002 | Deve processar requisições do usuário em no máximo 3 segundos     | MÉDIA      | 
+| RNF-003 | Funcionar com vários tipos de câmeras                             | BAIXA      | 
 | RNF-004 | Enviar notificação em caso de violação                            | MÉDIA      | 
 | RNF-005 | Customização de requisitos                                        | BAIXA      | 
-
 
 ### Restrições
 
 A tabela a seguir apresenta as restrições do projeto.
 
-| ID     | Descrição do Requisito                        | Prioridade |
-|--------|-----------------------------------------------|------------|
-| RE-001 | Permitir que o usuário cadastre               | ALTA       | 
-| RE-002 | Interface para acesso ao conteúdo             | ALTA       |
+| ID     | Descrição da Restrição                      | Prioridade |
+|--------|---------------------------------------------|------------|
+| RE-001 | Permitir que o usuário cadastre             | ALTA       | 
+| RE-002 | Interface para acesso ao conteúdo           | ALTA       |
 | RE-003 | Verificar se uma pessoa foi detectada sem EPI | ALTA       |
-| RE-004 | Salvar imagens de momentos de violação        | MÉDIA      |
-| RE-005 | Detectar a presença de EPI                    | MÉDIA      |
-
+| RE-004 | Salvar imagens de momentos de violação      | MÉDIA      |
+| RE-005 | Detectar a presença de EPI                  | MÉDIA      |
 
 ### Contra-Escopo
+
+A tabela a seguir apresenta as funcionalidades que não estão incluídas no escopo do projeto.
 
 | ID     | Descrição do Contra-Escopo                                                  | 
 |--------|-----------------------------------------------------------------------------|
@@ -266,33 +257,37 @@ A tabela a seguir apresenta as restrições do projeto.
 | CE-002 | Pesquisa de viabilidade do mercado.                                         |
 | CE-003 | Desenvolvimento de hardware proprietário para captura de imagens.           |
 | CE-004 | Monitoramento de condições ambientais, como temperatura e umidade.          |
-| CE-005 | Suporte a plataformas de nuvem que não sejam Cloud.                         |
+| CE-005 | Suporte a plataformas de nuvem que não sejam AWS.                           |
 | CE-006 | Implementação de funcionalidades de gestão de projetos dentro do sistema.   |
 | CE-007 | Desenvolvimento de aplicativos móveis nativos para plataformas específicas. |
 
+### Condições para Início do Projeto
 
-### Condições para início do Projeto
+A tabela a seguir apresenta as condições que devem ser atendidas para o início do projeto.
 
 | ID     | Descrição de Condições para Início do Projeto                        | 
 |--------|----------------------------------------------------------------------|
 | CI-001 | Assinatura de contrato de prestação de serviços.                     |
 | CI-002 | Apresentação de garantias definidas no contrato.                     |
-| CI-003 | Disponibilidade de acesso aos recursos e serviços Cloud necessários. |
+| CI-003 | Disponibilidade de acesso aos recursos e serviços AWS necessários.   |
 | CI-004 | Aquisição e configuração das câmeras para a segurança nas obras.     |
 | CI-005 | Treinamento inicial da equipe de segurança para uso do sistema.      |
 
 ## Marcos Agendados e Entregas
 
+A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
+
 | ID  | Marco do Projeto                                                          | 
 |-----|---------------------------------------------------------------------------|
-| M-1 | Liberação do sistema para cadastro de informações e configuração inicial. |
-| M-2 | Permissão para uso do sistema por usuários focais.                        |
-| M-3 | Conclusão da integração com câmeras para a segurança.                     |
-| M-4 | Desenvolvimento e integração do painel de monitoramento em tempo real.    |
-| M-5 | Testes de desempenho e conformidade.                                      |
-| M-6 | Entrega final da solução e início do treinamento do usuário final.        |
-| M-7 | Auditoria de conformidade com segurança após 3 meses de uso.              |
-| M-8 | Lançamento da versão 2.0 com melhorias baseadas no feedback do usuário.   |
+| M-001 | Liberação do sistema para cadastro de informações e configuração inicial. |
+| M-002 | Permissão para uso do sistema por usuários focais.                        |
+| M-003 | Conclusão da integração com câmeras para a segurança.                     |
+| M-004 | Desenvolvimento e integração do painel de monitoramento em tempo real.    |
+| M-005 | Testes de desempenho e conformidade.                                      |
+| M-006 | Entrega final da solução e início do treinamento do usuário final.        |
+| M-007 | Auditoria de conformidade com segurança após 3 meses de uso.              |
+| M-008 | Lançamento da versão 2.0 com melhorias baseadas no feedback do usuário.   |
+
 
 ```diff
 + Tarefa 02
