@@ -317,31 +317,41 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 > - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 ## Divisão de Papéis
-
+<!-- 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
-> Indique as responsabilidades de cada membro do grupo no projeto.
+> Indique as responsabilidades de cada membro do grupo no projeto. 
+-->
+#### A divisão de papéis e tarefas entre os membros do grupo foi realizada da seguinte forma:
+
+- Product Owner: Responsável por definir as prioridades e garantir que a equipe esteja focada nos objetivos do projeto.
+- Scrum Master: Facilitador do processo Scrum, garantindo que a equipe siga as práticas ágeis e removendo impedimentos.
+- Desenvolvedores: Responsáveis pela implementação das funcionalidades do projeto.
+- Designers: Responsáveis pela criação dos protótipos e interfaces do usuário.
+- Testers: Responsáveis por garantir a qualidade do software através de testes contínuos.
 
 ## Ferramentas
 
+<!--
 ......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 > Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
 > Todas as ferramentas utilizadas devem ser listadas.
 > Qualquer tipo de ferramenta que for utilizada para construção de um artefato deve ser identificada, uma vez que podem ser necessárias alterações.
-> A necessidade de uso de licenças e possíveis custos relacionados devem ser indicados.
+> A necessidade de uso de licenças e possíveis custos relacionados devem ser indicados. 
+-->
 
 | Ambiente              | Plataforma         | Link de Acesso             | Justificativa                                                  |
 |-----------------------|--------------------|----------------------------|----------------------------------------------------------------|
-| Quadro Kanban         | Github             | https://github.com/XXXXXXX | Centralização e organização do projeto no próprio repositório. |
-| Repositório de código | GitHub             | https://github.com/XXXXXXX |                                                                |
-| Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX  |                                                                |
-| Documentos Textuais   | LibreOffice Writer | N/A                        |                                                                |
-| Planilhas e Gráficos  | Google Planilhas   | https://docs.google.com/   |                                                                |
-| EAP / WBS             |                    |                            |                                                                |
-| Cronograma do Projeto |                    |                            |                                                                |
-| Matriz RACI           |                    |                            |                                                                |
+| Quadro Kanban         | Github             | [Quadro do projeto](https://github.com/orgs/ICEI-PUC-Minas-PMG-EC-GPS/projects/32) | Centralização e organização do projeto no próprio repositório. |
+| Repositório de código | GitHub             | [Repositório no github](https://github.com/orgs/ICEI-PUC-Minas-PMG-EC-GPS/teams/g9-obrasegura) | Padronização do projeto em uma única plataforma. |
+| Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX | Projetar e refinar produtos com sua equipe, em um único arquivo de design compartilhado. |
+| Documentos Textuais   | LibreOffice Writer | [Aplicativo](https://www.libreoffice.org/download/download-libreoffice/) | Ferramenta gratuita para criação de documentos textuais. |
+| Planilhas e Gráficos  | Google Planilhas   | [Google Sheets](https://docs.google.com/) | Ferramenta online gratuita para criação e compartilhamento de planilhas e gráficos. |
+| EAP / WBS | | | |
+| Cronograma do Projeto | | | |
+| Matriz RACI | | | |
 
 ```diff
 + Tarefa 03:
