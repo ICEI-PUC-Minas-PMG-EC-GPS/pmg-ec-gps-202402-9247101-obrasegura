@@ -349,10 +349,9 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 | Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX | Projetar e refinar produtos com sua equipe, em um único arquivo de design compartilhado. |
 | Documentos Textuais   | LibreOffice Writer | [Aplicativo](https://www.libreoffice.org/download/download-libreoffice/) | Ferramenta gratuita para criação de documentos textuais. |
 | Planilhas e Gráficos  | Google Planilhas   | [Google Sheets](https://docs.google.com/) | Ferramenta online gratuita para criação e compartilhamento de planilhas e gráficos. |
-| EAP / WBS | | | |
+| EAP / WBS | Miro | [Link do EAP](https://miro.com/app/board/uXjVLf9uZTM=/) | Ferramenta online para criação de diagramas e mapas mentais, e neste caso quadro da EAPs. | 
 | Cronograma do Projeto | | | |
 | Matriz RACI | | | |
-
 ```diff
 + Tarefa 03:
 + Fim da seção a ser atualizada.
