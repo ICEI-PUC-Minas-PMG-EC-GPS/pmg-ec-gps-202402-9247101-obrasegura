@@ -82,14 +82,7 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 # Estrutura Analítica do Projeto
 
 
-
-![Estrutura Analítica do Projeto](docs/02-planejamento/images/eap.png)
-
-
-### Documento Editável
-
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável de geração da WBS:
-  ![](docs/02-planejamento/images/eap.png)
+  ![Estrutura Analítica do Projeto](images/exemplo_wbs.png)
 - [Estrutura Analítica do Projeto - Editável](https://miro.com/welcomeonboard/NXZpUkxCcEs4V2s1ekp5VFF5ZWx1cjlkNnFjZWF2aUFGdFBMbGFSUG01cE1XZVJFUjFUdXZsTTl6NzJyZE9laHwzNDU4NzY0NTMwNDE2NDIxNjEyfDI=?share_link_id=425366541402)
 
 ```diff
