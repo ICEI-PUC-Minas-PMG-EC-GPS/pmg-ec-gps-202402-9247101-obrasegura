@@ -63,8 +63,20 @@ As premissas para o início do projeto incluem:
 - Aquisição e configuração das câmeras para a segurança nas obras;
 - Treinamento inicial da equipe de segurança para uso do sistema.
 
-### Marcos e Entregas
-Os marcos e entregáveis previstos serão detalhados conforme o progresso do projeto.
+### Marcos Agendados e Entregas
+
+A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
+
+| ID  | Marco do Projeto                                                          | 
+|-----|---------------------------------------------------------------------------|
+| M-001 | Liberação do sistema para cadastro de informações e configuração inicial. |
+| M-002 | Permissão para uso do sistema por usuários focais.                        |
+| M-003 | Conclusão da integração com câmeras para a segurança.                     |
+| M-004 | Desenvolvimento e integração do painel de monitoramento em tempo real.    |
+| M-005 | Testes de desempenho e conformidade.                                      |
+| M-006 | Entrega final da solução e início do treinamento do usuário final.        |
+| M-007 | Auditoria de conformidade com segurança após 3 meses de uso.              |
+| M-008 | Lançamento da versão 2.0 com melhorias baseadas no feedback do usuário.   |
 
 
 # Estrutura Analítica do Projeto
