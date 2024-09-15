@@ -26,15 +26,46 @@
 + Escopo e Estrutura Analítica do Projeto
 ```
 
-# Escopo do Projeto
+## Escopo do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O escopo do projeto define os limites, objetivos e entregáveis, estabelecendo clareza sobre o que será realizado e o que está excluído. Ele assegura a alocação adequada de recursos, evita desvios dos objetivos e garante que as expectativas dos stakeholders sejam atendidas.
 
-> O escopo do projeto define os limites, objetivos e entregáveis do projeto, estabelecendo clareza sobre o que será realizado e o que está excluído do escopo. 
-> O escopo assegura a alocação adequada de recursos, evita desvios dos objetivos do projeto e garante que as expectativas dos stakeholders sejam atendidas. 
-> A definição do escopo inclui documentação detalhada dos requisitos, restrições e premissas do projeto. 
-> Ao longo do ciclo de vida do projeto, a gestão do escopo também inclui o controle de mudanças, garantindo que qualquer ajuste seja avaliado quanto ao seu impacto e aprovado de maneira adequada. 
-> Utilize como referência a documentação existente na [Fase de Iniciação](/docs/01-iniciacao).
+A definição do escopo inclui documentação detalhada dos requisitos, restrições e premissas do projeto. Ao longo do ciclo de vida do projeto, a gestão do escopo também inclui o controle de mudanças, garantindo que qualquer ajuste seja avaliado quanto ao seu impacto e aprovado de maneira adequada.
+
+### Objetivo do Projeto
+O objetivo do projeto **Obra Segura** é detectar em tempo real Equipamentos de Proteção Individual (EPIs) em obras de construção civil.
+
+### Limites do Projeto
+Os seguintes itens estão fora do escopo do projeto:
+
+- Treinamento de modelo de linguagem natural (LLM);
+- Pesquisa de viabilidade do mercado;
+- Desenvolvimento de hardware proprietário para captura de imagens;
+- Monitoramento de condições ambientais como temperatura e umidade;
+- Suporte a plataformas de nuvem que não sejam AWS;
+- Implementação de funcionalidades de gestão de projetos dentro do sistema;
+- Desenvolvimento de aplicativos móveis nativos para plataformas específicas.
+
+### Restrições
+As principais restrições para o projeto são:
+
+- Interface para acesso ao conteúdo;
+- Verificar se uma pessoa foi detectada sem EPI;
+- Salvar imagens de momentos de violação;
+- Detectar a presença de EPI.
+
+### Premissas
+As premissas para o início do projeto incluem:
+
+- Assinatura de contrato de prestação de serviços;
+- Apresentação de garantias definidas no contrato;
+- Disponibilidade de acesso aos recursos e serviços AWS necessários;
+- Aquisição e configuração das câmeras para a segurança nas obras;
+- Treinamento inicial da equipe de segurança para uso do sistema.
+
+### Marcos e Entregas
+Os marcos e entregáveis previstos serão detalhados conforme o progresso do projeto.
+
 
 # Estrutura Analítica do Projeto
 
