@@ -96,10 +96,37 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 + Matriz de Responsabilidades (RACI)
 ```
 
-# Matriz de Responsabilidades
+# Matriz de Responsabilidades (RACI)
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| **Atividade**                                                         | **Samir** | **Wagnus** | **Marcos** | **Gerente de Projeto** | **Equipe de Desenvolvimento** | **Equipe de Segurança** | **Equipe de TI** | **Usuários Finais** | **Patrocinadores** |
+|-----------------------------------------------------------------------|-----------|------------|------------|------------------------|-------------------------------|-------------------------|------------------|---------------------|--------------------|
+| Iniciar o projeto                                                     | R         | A          | C          | R                      | A                             | C                       | I                | I                   | I                  |
+| Levantamento de Requisitos com Stakeholders                            | C         | R          | I          | A                      | C                             | C                       | C                | C                   | I                  |
+| Definição dos Critérios de Detecção de EPIs                            | C         | I          | R          | C                      | C                             | R                       | I                | I                   | A                  |
+| Design e Arquitetura do Sistema                                        | A         | C          | I          | A                      | R                             | C                       | C                | I                   | I                  |
+| Desenvolvimento do Algoritmo de Detecção                               | I         | C          | R          | I                      | R                             | C                       | I                | I                   | I                  |
+| Integração com Câmeras e Sensores                                      | I         | C          | R          | I                      | R                             | C                       | A                | I                   | I                  |
+| Testes de Unidade e Integração                                         | C         | I          | R          | C                      | R                             | I                       | C                | I                   | I                  |
+| Testes de Conformidade com Normas de Segurança                         | I         | C          | R          | I                      | C                             | R                       | I                | I                   | I                  |
+| Testes de Aceitação pelo Usuário                                       | I         | I          | C          | I                      | C                             | C                       | C                | R                   | I                  |
+| Implementação em Ambientes de Teste                                    | I         | R          | A          | I                      | R                             | C                       | A                | I                   | I                  |
+| Implementação em Ambientes de Produção                                 | A         | R          | I          | A                      | R                             | C                       | A                | I                   | I                  |
+| Monitoramento e Suporte Contínuo do Sistema                            | I         | C          | R          | I                      | C                             | R                       | R                | I                   | I                  |
+| Atualizações e Melhorias no Sistema de Detecção                        | I         | C          | R          | I                      | R                             | C                       | A                | C                   | I                  |
+| Análise de Incidentes e Melhoria Contínua do Processo de Detecção      | I         | I          | C          | I                      | C                             | R                       | C                | C                   | I                  |
+| Desativação ou Substituição do Sistema (caso necessário)               | A         | C          | R          | A                      | C                             | R                       | R                | I                   | I                  |
+| Treinamento da Equipe de Segurança para Utilização do Sistema          | I         | C          | R          | I                      | C                             | R                       | C                | I                   | I                  |
+| Treinamento dos Usuários Finais                                        | I         | C          | R          | I                      | C                             | C                       | C                | R                   | I                  |
+| Planejamento de Recursos e Orçamento                                   | R         | I          | C          | C                      | I                             | I                       | I                | I                   | I                  |
+| Avaliação de Desempenho e Relatórios                                   | C         | C          | R          | I                      | I                             | I                       | I                | I                   | I                  |
 
+> Informações Adicionais:
+> * **R**esponsible (Responsável) -> A pessoa ou equipe que realiza a tarefa;
+> * **A**ccountable (Aprovador) -> A pessoa que aprova a tarefa ou resultado final;
+> * **C**onsulted (Consultado) -> Pessoas que devem ser consultadas antes de uma decisão ou ação;
+> * **I**nformed (Informado) -> Pessoas que devem ser mantidas informadas sobre o progresso ou decisões, mas não participam ativamente.
+
+<!--
 > A Matriz de Responsabilidades é uma ferramenta para definir e indicar as responsabilidades de cada membro da equipe em relação às atividades do projeto. 
 > Também conhecida como RACI (Responsável, Aprovador, Consultado e Informado), essa matriz atribui papéis específicos a cada envolvido, indicando quem é responsável pela execução de uma tarefa, quem deve aprovar, quem precisa ser consultado e quem deve ser mantido informado. 
 > Ao criar uma visão visual e estruturada das responsabilidades, a matriz RACI minimiza ambiguidades e conflitos de papel.
@@ -112,16 +139,16 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 > * **I**nformed    -> Informado (pessoas interessadas no projeto que devem ser informadas sobre a execução).
 > 
 > Link de auxílio: https://www.forbes.com/advisor/business/raci-chart/
+-->
+<!--> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
 
-> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
-
-![Matriz RACI](images/raci.png)
+![Matriz RACI](images/MatrizRACI.png)
 
 
 ### Documento Editável
 
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável da Matriz RACI:
-- [Matriz de Responsabilidades (RACI) - Editável](artefatos/matriz-raci.docx)
+<!--> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável da Matriz RACI:
+- [Matriz de Responsabilidades (RACI) - Editável](artefatos/matriz_responsabilidades_raci.docx)
 
 ```diff
 + Tarefa 05:
