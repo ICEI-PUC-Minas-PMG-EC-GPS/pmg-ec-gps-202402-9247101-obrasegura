@@ -140,14 +140,17 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 > 
 > Link de auxílio: https://www.forbes.com/advisor/business/raci-chart/
 -->
-<!--> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
-
+<!-- 
+> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
+--->
 ![Matriz RACI](images/MatrizRACI.png)
 
 
 ### Documento Editável
 
-<!--> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável da Matriz RACI:
+<!-- 
+> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável da Matriz RACI:
+-->
 - [Matriz de Responsabilidades (RACI) - Editável](artefatos/matriz_responsabilidades_raci.docx)
 
 ```diff
