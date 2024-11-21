@@ -337,7 +337,7 @@ Implementar processos de monitoramento em tempo real para avaliar a eficácia do
 ### Documento Editável
 
 > Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável de geração da WBS:
-- [Especificação Produto Aquisição - Editável](artefatos/aquisicao_produtos.docx)
+- [Especificação Produto Aquisição - Editável](https://sgapucminasbr-my.sharepoint.com/personal/1441742_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EdfXQptvYItMm2fhKDMcYdgB5R2lQjzvbVo-Q1A8r0k35w&e=UyM6Hc)
 
 
 ```diff
