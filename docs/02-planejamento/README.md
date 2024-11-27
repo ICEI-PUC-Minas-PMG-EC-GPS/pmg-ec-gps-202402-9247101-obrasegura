@@ -352,62 +352,58 @@ Implementar processos de monitoramento em tempo real para avaliar a eficácia do
 
 ## Plano de Comunicação
 
-...... DESCREVA SUCINTAMENTE O PLANO DE COMUNICAÇÃO UTILIZADO NO PROJETO ......
+> O Plano de Comunicação estabelece estratégias e diretrizes para facilitar a troca de informações entre os membros da equipe e as partes interessadas.  
+> Este plano abrange aspectos como os meios de comunicação, a frequência das atualizações, os canais de distribuição de informações e os responsáveis pela comunicação.  
+> Uma comunicação eficiente não apenas previne mal-entendidos e conflitos, mas também fortalece o engajamento da equipe e o apoio das partes interessadas.  
 
-> O Plano de Comunicação estabelece estratégias e diretrizes para facilitar a troca de informações entre os membros da equipe e as partes interessadas. 
-> Este plano abrange aspectos como os meios de comunicação, a frequência das atualizações, os canais de distribuição de informações e os responsáveis pela comunicação. 
-> Uma comunicação eficiente não apenas previne mal-entendidos e conflitos, mas também fortalece o engajamento da equipe e o apoio das partes interessadas. 
->
-> Você pode utilizar como referência o seguinte documento:
+Você pode utilizar como referência o seguinte documento:  
 - [Plano de Gerenciamento de Comunicação - Editável](artefatos/plano_comunicacao.docx)
 
-### Plano de Comunicação do Projeto
+## Plano de Comunicação do Projeto
 
-| Entregável                         | Público Alvo | Met. Comunicação | Frequência  | Responsável | 
-|------------------------------------|--------------|------------------|-------------|-------------|
-| Ata de reunião                     |              |                  |             |             |
-| Declaração de escopo               |              |                  |             |             |
-| WBS                                |              |                  |             |             |
-| Dicionário da WBS                  |              |                  |             |             |
-| Cronograma                         |              |                  |             |             |
-| Lista de Riscos                    |              |                  |             |             |
-| Plano de qualidade                 |              |                  |             |             |
-| Plano de projeto                   |              |                  |             |             |
-| Relatório de Progresso             |              |                  |             |             |
-| Relatório de Aderência ao Processo |              |                  |             |             |
-| Checklists de Inspeção             |              |                  |             |             |
-|                                    |              |                  |             |             |
-|                                    |              |                  |             |             |
-|                                    |              |                  |             |             |
+| **Entregável**                     | **Público Alvo**              | **Met. Comunicação** | **Frequência**  | **Responsável**     |
+|------------------------------------|-------------------------------|----------------------|-----------------|---------------------|
+| Ata de reunião                     | Gerentes e Stakeholders       | Reunião virtual      | Quinzenal       | João Silva          |
+| Declaração de escopo               | Equipe técnica e clientes     | E-mail               | Mensal          | Maria Oliveira      |
+| WBS                                | Gerentes de projeto           | Reunião presencial   | Uma vez         | Pedro Andrade       |
+| Dicionário da WBS                  | Equipe de desenvolvimento     | Documento interno    | Ad hoc          | Ana Martins         |
+| Cronograma                         | Todos os stakeholders         | Portal do projeto    | Atualizações automáticas | João Silva |
+| Lista de Riscos                    | Gerentes e consultores        | Relatório PDF        | Mensal          | Maria Oliveira      |
+| Plano de qualidade                 | Engenheiros e analistas       | Relatório interno    | Trimestral      | Pedro Andrade       |
+| Plano de projeto                   | Stakeholders e gerentes       | Apresentação         | Bimensal        | Ana Martins         |
+| Relatório de Progresso             | Stakeholders                  | Reunião presencial   | Mensal          | João Silva          |
+| Relatório de Aderência ao Processo | Supervisores                  | Documento interno    | Semanal         | Pedro Andrade       |
+| Checklists de Inspeção             | Equipe de auditoria           | Portal interno       | Conforme necessário | Ana Martins      |
 
-> Legenda:
-> - Público: a quem se destina a comunicação.
-> - Método de Comunicação: e_mail, reunião presencial, reunião virtual, etc.
-> - Freqüência: diária, semanal, quinzenal, mensal, etc.
-> - Responsável: pessoa responsável pela comunicação.
+> **Legenda:**  
+> - **Público Alvo**: A quem se destina a comunicação.  
+> - **Método de Comunicação**: E-mail, reunião presencial, reunião virtual, etc.  
+> - **Frequência**: Diária, semanal, quinzenal, mensal, etc.  
+> - **Responsável**: Pessoa responsável pela comunicação.  
 
-### Plano de Gerência de Comunicação
+---
 
-> Indique:
-> - Ferramentas utilizadas no projeto - adicionar link de acesso às ferramentas
-> - Papéis: responsáveis pelas correspondentes no projeto
-> - Princípios gerais: indica quais princípios serão adotados no plano de comunicação, como clareza, objetividade, impessoalidade, imparcialidade e cordialidade. Detalhar.
->
-> Plano de Gerência de Configuração: definir, em linhas gerais, como (ferramenta) serão controladas e distribuídas as versões e se haverá algum controle de responsabilidades.
+## Plano de Gerência de Comunicação
 
-- Ferramentas utilizadas:
-- - [Ferramenta 01](https://pucminas.br)
-  - [Ferramenta 02](https://pucminas.br)
-  - [Ferramenta 03](https://pucminas.br)
-- Papéis:
-- - ...
-  - ...
-  - ...
-- Princípios gerais
-- - ...
-  - ...
-  - ...
-  - ...
+### Ferramentas utilizadas:
+- [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software) – Comunicação de equipe e reuniões virtuais.  
+- [Miro](https://miro.com) – Gerenciamento de tarefas e progresso.  
+- [One Drive](https://onedrive.live.com) – Armazenamento e compartilhamento de documentos.  
+
+### Papéis e Responsabilidades:
+- João Silva: Comunicação interna com a equipe técnica.  
+- Maria Oliveira: Relatórios e comunicação com stakeholders externos.  
+- Pedro Andrade: Organização e distribuição dos documentos do projeto.  
+- Ana Martins: Garantia de conformidade com os padrões de comunicação.  
+
+### Princípios gerais:
+- **Clareza**: Todas as mensagens devem ser objetivas e de fácil compreensão.  
+- **Impessoalidade**: O foco deve estar no trabalho, e não nas pessoas.  
+- **Cordialidade**: Manter tom respeitoso em todas as comunicações.  
+- **Transparência**: Informações devem ser compartilhadas de forma aberta e acessível.  
+
+### Plano de Gerência de Configuração:
+Para controle e distribuição de versões, utilizaremos o **GitHub**, com um repositório dedicado ao projeto para versionamento de documentos e arquivos técnicos.  
 
 ```diff
 + Tarefa 11:
