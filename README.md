@@ -23,7 +23,7 @@ sistema de monitoramento eficiente e proativo
 
 ## Gerenciamento do Projeto
 
-......  Detecção Automatizada de EPIs em Obras de Construção ......
+Detecção Automatizada de EPIs em Obras de Construção
 
 > Ao longo do semestre, o foco será na criação de um modelo capaz de analisar imagens
 capturadas no local da obra e detectar automaticamente se os trabalhadores estão
