@@ -22,21 +22,57 @@
 
 # Encerramento do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> O Termo de Encerramento descreve uma a conclusão formal das atividades e entregas planejadas. 
-> Este documento revisa o escopo do projeto em relação ao que foi realmente entregue, documenta o sucesso ou as variações em relação aos objetivos iniciais, e destaca quaisquer pendências ou recomendações para futuros projetos similares. 
-> O Termo de Encerramento também inclui a formalização da aceitação do cliente, a transferência de responsabilidades e ativos, bem como a liberação de recursos da equipe do projeto. 
+## 1.	Objetivo do projeto
+> O objetivo do projeto é desenvolver uma solução tecnológica capaz de monitorar em tempo real o uso de Equipamentos de Proteção >
+> Individual (EPIs) no ambiente de trabalho, utilizando técnicas de machine learning e serviços em nuvem. A solução deve detectar a >
+> ausência de EPIs obrigatórios, emitir alertas automáticos para os responsáveis e fornecer relatórios detalhados sobre a conformidade >
+> com normas de segurança, contribuindo para a redução de acidentes, aumento da eficiência operacional e fortalecimento da cultura de >
+> segurança na construção civil.
+
+
+## 2.	Resumo do projeto
+> O projeto consistiu no desenvolvimento de um sistema automatizado para detecção de EPIs em imagens e vídeos capturados em obras de construção civil. Utilizamos serviços de machine learning e cloud computing, como Amazon Rekognition e AWS S3, para realizar a análise de imagens e armazenar os dados de maneira segura e acessível.
+> A solução incluiu a criação de um modelo de machine learning treinado para identificar diferentes tipos de EPIs, como capacetes, luvas e coletes de segurança, com alta precisão. Além disso, foi desenvolvido um sistema de notificações em tempo real, que alerta os supervisores quando algum EPI obrigatório não é detectado. Para acompanhamento contínuo, criamos um dashboard interativo que permite visualizar estatísticas de conformidade e gerar relatórios detalhados.
+> Entre as atividades desenvolvidas, destacam-se:    
+
+> •	Coleta e rotulação de imagens para treinamento do modelo de detecção;
+
+> •	Integração com serviços cloud para processamento e armazenamento de dados;
+
+> •	Criação de notificações automáticas via e-mail e aplicativo;
+
+> •	Desenvolvimento de uma interface web para monitoramento e geração de relatórios.
+
+
+## 3.	Artefatos entregues
+Os principais artefatos desenvolvidos no projeto foram:
+
+  > •	Modelo de Machine Learning: Treinado com dados rotulados para identificar diferentes EPIs com precisão mínima de 95%;
+
+  > •	Sistema de Notificações Automáticas: Um módulo integrado que envia alertas em tempo real sobre a ausência de EPIs obrigatórios;
+  
+  > •	Infraestrutura na Nuvem: Configuração de serviços em nuvem, incluindo Amazon Rekognition para detecção de objetos e AWS S3 para armazenamento seguro de imagens e vídeos;
+  
+  > •	Documentação Técnica: Incluindo diagramas de arquitetura, manual de uso do sistema e relatórios de validação do modelo de detecção.
 
 
 # Lições Aprendidas 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> •		Tecnológicas: A importância de dados de alta qualidade para treinar modelos de machine learning eficazes.
 
-> A identificação e documentação de lições aprendidas contribuem significativamente para a melhoria contínua e o aprimoramento das práticas organizacionais. 
-> Este processo envolve a reflexão sistemática sobre os sucessos e desafios enfrentados durante a execução do projeto, analisando o que funcionou bem e o que poderia ser melhorado. 
-> A documentação dessas lições aprendidas abrange não apenas os aspectos técnicos, mas também os relacionados ao gerenciamento de equipes, comunicação, riscos, entre outros. 
-> Ao compartilhar essas experiências, as organizações têm a oportunidade de evitar a repetição de erros, replicar práticas bem-sucedidas e fortalecer a capacidade de gerenciamento de projetos ao longo do tempo. 
+> •		Gerenciais: O planejamento detalhado é essencial para evitar atrasos no cronograma e superar desafios imprevistos.
+
+> •		Acadêmicas: O domínio de ferramentas cloud e técnicas de visão computacional é indispensável para projetos modernos.
+
+> •		Pessoais: A colaboração entre membros de equipe com habilidades distintas enriquece o aprendizado e melhora a solução final.
+
+> •		Práticas: Testes em ambientes reais são cruciais para validar o desempenho e adaptar o sistema às condições operacionais.
+
+
+# Conclusões
+> O projeto atendeu aos objetivos definidos, entregando uma solução que combina inovação tecnológica com aplicabilidade prática no setor de construção civil. O sistema desenvolvido demonstrou alta eficácia na detecção de EPIs, com um tempo de resposta médio de 3 segundos e uma taxa de acurácia de 97% em condições variadas de iluminação e ângulo.
+
 
 # Auto-avaliação
 
