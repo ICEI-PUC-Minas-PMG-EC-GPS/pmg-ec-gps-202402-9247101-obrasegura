@@ -434,16 +434,10 @@ Para controle e distribuição de versões, utilizaremos o **GitHub**, com um re
 
 | Categoria do Risco  | Descrição do Risco | Impacto       | Risco         | Medidas de Prevenção (Contramedidas) | Medidas de Contingência (Mitigação) | 
 |---------------------|--------------------|---------------|---------------|--------------------------------------|-------------------------------------|
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
+| Equipamento         | Camera danificada  | Alto          | Baixo         | Uso de cameras robustas              | Verificação periodica do estado do equipamento |
+| Sistema             | Serviço online innacessivel| Alto  | Baixo         | Garantia de internet funcional       | Internet secundária                 |
+| Sistema             | Queda de luz       | Alto          | Baixo         | Uso de baterias e/ou geradores       | Use de baterias robustas            |
+| Visão               | Obstrução temporária | Médio       | Médio         | Uso de mais cameras                  | Evitar obstruções                   |
 
 > Indique:
 > Categoria do Risco: *ex.: Cliente, Cronograma, Orçamento, Aquisição de produtos, etc*
