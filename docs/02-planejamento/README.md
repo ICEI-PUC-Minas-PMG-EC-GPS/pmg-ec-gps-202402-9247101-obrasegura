@@ -417,10 +417,8 @@ Para controle e distribuição de versões, utilizaremos o **GitHub**, com um re
 
 ## Plano de Riscos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> **O plano de riscos do projeto Obra Segura identifica e categoriza os principais desafios potenciais, propondo medidas de mitigação para assegurar o sucesso do projeto.**
 
-
-> O plano de riscos busca antecipar, avaliar e mitigar os desafios potenciais que podem surgir ao longo do projeto. 
 > Este documento estratégico oferece uma visão global dos riscos, categorizando-os e delineando estratégias para lidar com cada uma das possíveis adversidades. 
 > Inicialmente, é realizada a identificação detalhada dos riscos, abrangendo desde ameaças imprevistas até oportunidades que podem ser exploradas. 
 > Uma vez catalogados, os riscos são avaliados quanto à sua probabilidade de ocorrência e impacto, permitindo a priorização e foco em áreas críticas.
@@ -428,24 +426,25 @@ Para controle e distribuição de versões, utilizaremos o **GitHub**, com um re
 > O plano de riscos não apenas destaca os perigos em potencial, mas também estabelece respostas e estratégias de contingência. 
 > Isso inclui a definição de ações preventivas para mitigar riscos antes que se materializem, bem como estratégias de mitigação para minimizar seu impacto se ocorrerem. 
 > Além disso, a identificação de pontos de monitoramento contínuo ao longo do projeto permite uma resposta ágil às mudanças nas condições do ambiente.
->
+<!--
 > Você pode utilizar como referência o seguinte documento:
 - [Plano de Gerenciamento de Riscos - Editável](artefatos/plano_riscos.xls)
+-->
+| Categoria do Risco  | Descrição do Risco                          | Impacto       | Risco         | Medidas de Prevenção (Contramedidas) | Medidas de Contingência (Mitigação) | 
+|---------------------|---------------------------------------------|---------------|---------------|--------------------------------------|-------------------------------------|
+| Equipamento         | Câmera danificada ou malfuncionamento       | Alto          | Médio         | Uso de câmeras robustas e redundantes| Verificação periódica do estado do equipamento |
+| Conectividade       | Interrupção no serviço de internet          | Alto          | Médio         | Configuração de conexões de internet secundárias | Acesso via rede móvel emergencial  |
+| Sistema             | Falhas no modelo de IA                     | Médio         | Alto          | Testes rigorosos e ajuste contínuo do modelo | Recuperação do modelo a partir de versões anteriores |
+| Segurança de Dados  | Vazamento de dados sensíveis                | Alto          | Baixa         | Criptografia e políticas rigorosas de acesso | Comunicação imediata às partes afetadas |
+| Conformidade Legal  | Não atendimento às normas de segurança      | Alto          | Baixa         | Consultoria jurídica e auditorias periódicas | Ajustes rápidos no sistema para conformidade |
 
-| Categoria do Risco  | Descrição do Risco | Impacto       | Risco         | Medidas de Prevenção (Contramedidas) | Medidas de Contingência (Mitigação) | 
-|---------------------|--------------------|---------------|---------------|--------------------------------------|-------------------------------------|
-| Equipamento         | Camera danificada  | Alto          | Baixo         | Uso de cameras robustas              | Verificação periodica do estado do equipamento |
-| Sistema             | Serviço online innacessivel| Alto  | Baixo         | Garantia de internet funcional       | Internet secundária                 |
-| Sistema             | Queda de luz       | Alto          | Baixo         | Uso de baterias e/ou geradores       | Use de baterias robustas            |
-| Visão               | Obstrução temporária | Médio       | Médio         | Uso de mais cameras                  | Evitar obstruções                   |
-
-> Indique:
-> Categoria do Risco: *ex.: Cliente, Cronograma, Orçamento, Aquisição de produtos, etc*
-> Descrição do Risco: *ex.: Cliente não aparenta ter muito interesse no projeto*
-> Impacto: *Baixo / Médio / Alto*
-> Risco: *Baixo / Médio / Alto*
-> Medidas de Prevenção: *Medidas que devem ser adotadas para evitar que o risco se concretize*
-> Medidas de Contingência: *Medidas que devem ser adotadas caso o risco se concretize*
+> **Indique:**
+> - **Categoria do Risco:** *ex.: Cliente, Cronograma, Orçamento, Aquisição de produtos, etc.*
+> - **Descrição do Risco:** *ex.: Cliente não aparenta ter muito interesse no projeto*
+> - **Impacto:** *Baixo / Médio / Alto*
+> - **Risco:** *Baixo / Médio / Alto*
+> - **Medidas de Prevenção:** *Medidas que devem ser adotadas para evitar que o risco se concretize*
+> - **Medidas de Contingência:** *Medidas que devem ser adotadas caso o risco se concretize*
 >
 > *Obs.: Para determinar o risco considere a seguinte combinação entre Probabilidade e Impacto:
 
