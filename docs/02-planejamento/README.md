@@ -166,17 +166,21 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 
 # Cronograma do Projeto
 
-......  DESCREVA EM LINHAS GERAIS O CRONOGRAMA DO SEU PROJETO AQUI ......
+O cronograma do projeto Obra Segura detalha as atividades planejadas ao longo do ciclo de vida do projeto, com base em marcos importantes e entregas-chave. Ele permite acompanhar o progresso e ajustar estratégias conforme necessário.
 
-> O cronograma do projeto fornece uma representação temporal detalhada de todas as atividades, marcos e eventos ao longo do ciclo de vida do projeto. 
-> Elaborado durante o planejamento, o cronograma é uma ferramenta que oferece uma visão das interdependências entre as tarefas, alocando recursos e definindo prazos para as entregas.
-> Utilizando técnicas como a análise de rede (PERT/CPM) e estimativas de duração, o cronograma ajuda na identificação de caminhos críticos, permitindo aos gestores de projeto otimizar recursos, antecipar potenciais atrasos e tomar decisões. 
-> Além disso, o cronograma serve como um guia para monitorar o progresso, comunicar efetivamente com a equipe e as partes interessadas, e ajustar estratégias para garantir a conclusão bem-sucedida do projeto dentro dos prazos estabelecidos.
+| ID   | Atividade                                      | Data Início | Data Término | Responsável         |
+|------|------------------------------------------------|-------------|--------------|---------------------|
+| A001 | Definição do escopo e requisitos              | 2024-01-10  | 2024-01-20   | Gerente de Projeto  |
+| A002 | Configuração inicial de infraestrutura AWS    | 2024-01-21  | 2024-01-30   | Equipe de TI        |
+| A003 | Desenvolvimento do modelo de machine learning | 2024-02-01  | 2024-02-28   | Equipe de IA        |
+| A004 | Testes iniciais do modelo                     | 2024-03-01  | 2024-03-10   | Equipe de QA        |
+| A005 | Integração do sistema com câmeras             | 2024-03-11  | 2024-03-20   | Equipe de TI        |
+| A006 | Desenvolvimento do painel de monitoramento    | 2024-03-21  | 2024-04-10   | Equipe de DevOps    |
+| A007 | Testes de conformidade                        | 2024-04-11  | 2024-04-20   | Equipe de QA        |
+| A008 | Treinamento do usuário final                  | 2024-04-21  | 2024-04-30   | Equipe de Treinamento |
+| A009 | Entrega final e início da operação            | 2024-05-01  | 2024-05-10   | Gerente de Projeto  |
 
-### Documento Editável
-
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável do Cronograma do Projeto:
-- [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
+---
 
 ```diff
 + Tarefa 07:
@@ -191,18 +195,19 @@ A tabela a seguir apresenta os marcos e entregas previstas para o projeto.
 
 # Orçamento do Projeto
 
-......  DESCREVA EM LINHAS GERAIS O ORÇAMENTO DO SEU PROJETO AQUI ......
+O orçamento do projeto Obra Segura foi elaborado para cobrir todas as etapas, desde o planejamento até a entrega final, com atenção aos custos diretos e indiretos, e mitigando riscos financeiros.
 
-> O orçamento do projeto envolve a estimativa e alocação de recursos financeiros necessários para a execução bem-sucedida do projeto, abrangendo custos diretos e indiretos, despesas operacionais, investimentos em equipamentos, pessoal, entre outros. 
-> O desenvolvimento do orçamento deve considerar variáveis como riscos, imprevistos e mudanças no escopo. 
-> Uma vez estabelecido, o orçamento serve como guia para a utilização eficiente dos recursos financeiros ao longo do projeto. 
-> A gestão do orçamento não apenas ajuda a controlar os custos, mas também fornece transparência e prestação de contas, permitindo que gestores tomem decisões informadas e evitem surpresas financeiras ao longo do ciclo de vida do projeto. 
-> Assim, o orçamento contribui para o sucesso do projeto, garantindo a viabilidade econômica e a entrega dentro das expectativas financeiras estabelecidas.
+| Categoria            | Descrição                                  | Custo Estimado (R$) |
+|----------------------|--------------------------------------------|---------------------|
+| Infraestrutura       | Serviços AWS (Rekognition, S3, Lambda)     | 50.000             |
+| Desenvolvimento      | Equipe de IA e DevOps                     | 70.000             |
+| Equipamentos         | Câmeras e acessórios                      | 30.000             |
+| Treinamento          | Capacitação da equipe de segurança         | 20.000             |
+| Testes e Qualidade   | Garantia de conformidade                   | 15.000             |
+| Reserva de Contingência | Mitigação de riscos                     | 10.000             |
+| **Total**            | **Orçamento Total**                       | **195.000**        |
 
-### Documento Editável
-
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável do Orçamento do Projeto:
-- [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
+---
 
 ```diff
 + Tarefa 08:
