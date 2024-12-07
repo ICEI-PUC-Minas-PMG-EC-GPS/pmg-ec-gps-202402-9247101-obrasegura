@@ -50,7 +50,9 @@ Fases do Gerenciamento do Projeto:
 > A imagem abaixo deve ser substituída por uma capa do vídeo de apresentação do trabalho.
 > -->
 
-[![Apresentação do projeto Obra Segura](https://img.youtube.com/vi/Nl7-slg1B3A/0.jpg)](https://www.youtube.com/watch?v=Nl7-slg1B3A)
+[![Apresentação do projeto Obra Segura](images/thumbnail.jpeg)](https://www.youtube.com/watch?v=unq_cZ6NOwk "CLIQUE AQUI PARA ASSISTIR")
+
+<!-- [![Apresentação do projeto Obra Segura](https://img.youtube.com/vi/Nl7-slg1B3A/0.jpg)](https://www.youtube.com/watch?v=Nl7-slg1B3A) -->
 
 ## Informações Adicionais
 
