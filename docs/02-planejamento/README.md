@@ -225,40 +225,28 @@ O orçamento do projeto Obra Segura foi elaborado para cobrir todas as etapas, d
 + Tarefa 09:
 + Checklist de Qualidade
 ```
-
-## Plano de Qualidade
-
-
-# Detecção Automática de EPIs em Construção Civil
-
-O projeto tem como objetivo desenvolver uma solução automatizada para a detecção de Equipamentos de Proteção Individual (EPIs) em ambientes de construção civil, utilizando a plataforma AWS e suas ferramentas de inteligência artificial. A segurança no ambiente de trabalho é uma prioridade em obras de construção, e a ausência de EPIs pode resultar em acidentes graves. Com o uso de tecnologias avançadas, como visão computacional e machine learning, este projeto visa identificar em tempo real a presença ou ausência dos EPIs obrigatórios em trabalhadores, proporcionando um sistema de monitoramento eficiente e proativo.
-
-```diff
-+ Tarefa 09:
-+ Checklist de Qualidade
-```
-
 ## Plano de Qualidade
 
 O Plano de Qualidade para o projeto de detecção automática de Equipamentos de Proteção Individual (EPIs) em ambientes de construção civil é estruturado para garantir a entrega de uma solução confiável, eficiente e alinhada às exigências do setor. Por meio de processos rigorosos de validação e verificação, o plano assegura que o sistema desenvolvido seja capaz de identificar em tempo real a presença ou ausência de EPIs obrigatórios, contribuindo para a segurança no ambiente de trabalho.
 
-Estratégias de Qualidade
-Validação de Algoritmos de Visão Computacional
-Garantir que o modelo de machine learning seja treinado com dados representativos, minimizando falsos positivos ou negativos na identificação de EPIs. Os dados de entrada incluem imagens coletadas em ambientes reais de construção civil.
+### Estratégias de Qualidade
 
-Testes de Desempenho
-Realizar testes para verificar a taxa de acerto e a latência do sistema, garantindo que o tempo de resposta atenda às necessidades operacionais, mesmo em cenários com múltiplos trabalhadores.
+>#### Validação de Algoritmos de Visão Computacional
+> Garantir que o modelo de machine learning seja treinado com dados representativos, minimizando falsos positivos ou negativos na identificação de EPIs. Os dados de entrada incluem imagens coletadas em ambientes reais de construção civil.
 
-Integração com AWS
-Validar a implementação de serviços AWS, como Amazon Rekognition e Lambda, para assegurar que a arquitetura da solução seja escalável, segura e resiliente.
+>#### Testes de Desempenho
+> Realizar testes para verificar a taxa de acerto e a latência do sistema, garantindo que o tempo de resposta atenda às necessidades operacionais, mesmo em cenários com múltiplos trabalhadores.
 
-Conformidade com Normas de Segurança do Trabalho
-O projeto seguirá as diretrizes regulamentares nacionais, como a Norma Regulamentadora 6 (NR-6), assegurando que os EPIs identificados pelo sistema sejam compatíveis com os padrões exigidos.
+>#### Integração com AWS
+> Validar a implementação de serviços AWS, como Amazon Rekognition e Lambda, para assegurar que a arquitetura da solução seja escalável, segura e resiliente.
 
-Monitoramento Contínuo
-Implementar processos de monitoramento em tempo real para avaliar a eficácia do sistema e corrigir possíveis falhas antes que impactem os usuários.
+>#### Conformidade com Normas de Segurança do Trabalho
+> O projeto seguirá as diretrizes regulamentares nacionais, como a Norma Regulamentadora 6 (NR-6), assegurando que os EPIs identificados pelo sistema sejam compatíveis com os padrões exigidos.
 
+>#### Monitoramento Contínuo
+> Implementar processos de monitoramento em tempo real para avaliar a eficácia do sistema e corrigir possíveis falhas antes que impactem os usuários.
 
+<!--
 > Referência - Conceitual
 > * https://www.researchgate.net/publication/230636169_Software_Quality_Assurance
 
@@ -279,6 +267,7 @@ Implementar processos de monitoramento em tempo real para avaliar a eficácia do
 
 > Você pode utilizar como referência o seguinte documento:
 > [Checklist de Qualidade](artefatos/checklist_qualidade.docx)
+-->
 
 ### Artefatos a serem verificados
 
